@@ -1,0 +1,780 @@
+2018-10-31	12:50:33:601	 820	4f4	Misc	===========  Logging initialized (build: 7.5.7601.17514, tz: +0800)  ===========
+2018-10-31	12:50:33:663	 820	4f4	Misc	  = Process: C:\Windows\system32\svchost.exe
+2018-10-31	12:50:33:726	 820	4f4	Misc	  = Module: c:\windows\system32\wuaueng.dll
+2018-10-31	12:50:33:601	 820	4f4	Service	*************
+2018-10-31	12:50:33:866	 820	4f4	Service	** START **  Service: Service startup
+2018-10-31	12:50:33:991	 820	4f4	Service	*********
+2018-10-31	12:50:34:474	 820	4f4	Agent	  * WU client version 7.5.7601.17514
+2018-10-31	12:50:34:537	 820	4f4	Agent	  * Base directory: C:\Windows\SoftwareDistribution
+2018-10-31	12:50:34:568	 820	4f4	Agent	  * Access type: No proxy
+2018-10-31	12:50:34:568	 820	4f4	Agent	  * Network state: Disconnected
+2018-10-31	12:50:38:156	 820	4f4	DtaStor	Default service for AU is {00000000-0000-0000-0000-000000000000}
+2018-10-31	12:50:38:577	 820	4f4	DtaStor	Default service for AU is {9482F4B4-E343-43B6-B170-9A65BC822C77}
+2018-10-31	12:50:39:700	 820	4f4	Agent	WARNING: Failed to read the service id for re-registration 0x80070002
+2018-10-31	12:50:39:825	 820	4f4	Agent	WARNING: Missing service entry in the backup data store; cleaning up
+2018-10-31	12:51:28:170	 820	4f4	Report	CWERReporter::Init succeeded
+2018-10-31	12:51:28:170	 820	4f4	Agent	***********  Agent: Initializing Windows Update Agent  ***********
+2018-10-31	12:51:28:170	 820	4f4	Agent	***********  Agent: Initializing global settings cache  ***********
+2018-10-31	12:51:28:170	 820	4f4	Agent	  * WSUS server: <NULL>
+2018-10-31	12:51:28:170	 820	4f4	Agent	  * WSUS status server: <NULL>
+2018-10-31	12:51:28:170	 820	4f4	Agent	  * Target group: (Unassigned Computers)
+2018-10-31	12:51:28:170	 820	4f4	Agent	  * Windows Update access disabled: No
+2018-10-31	12:51:28:216	 820	4f4	DnldMgr	Download manager restoring 0 downloads
+2018-10-31	12:51:28:263	 820	4f4	AU	###########  AU: Initializing Automatic Updates  ###########
+2018-10-31	12:51:28:372	 820	4f4	AU	AU setting next sqm report timeout to 2018-10-31 04:51:28
+2018-10-31	12:51:28:372	 820	4f4	AU	AU setting next featured software notification timeout to 2018-10-31 04:51:28
+2018-10-31	12:51:28:372	 820	4f4	AU	AU featured software notification sequence number is 609, Generation Time:2018-10-31 04:51:28
+2018-10-31	12:51:28:372	 820	4f4	AU	  # AU is not configured yet
+2018-10-31	12:51:28:372	 820	4f4	AU	  # Will interact with non-admins (Non-admins are elevated (User preference))
+2018-10-31	12:51:28:372	 820	4f4	AU	  # Accelerated install is required
+2018-10-31	12:51:28:372	 820	4f4	Agent	Switching to hardware-verified ClientId.
+2018-10-31	12:51:28:404	 820	4f4	AU	AU is not configured yet, generating timeout to launch setup wizard
+2018-10-31	12:51:28:419	 820	4f4	AU	Initializing featured updates
+2018-10-31	12:51:28:419	 820	4f4	AU	Found 0 cached featured updates
+2018-10-31	12:51:29:012	 820	4f4	Agent	Created new random SusClientId 3c2077ef-9ebd-490f-bdec-db712d99ed3e. Old Id: none.
+2018-10-31	12:51:29:012	 820	4f4	Report	***********  Report: Initializing static reporting data  ***********
+2018-10-31	12:51:29:012	 820	4f4	Report	  * OS Version = 6.1.7601.1.0.197008
+2018-10-31	12:51:29:012	 820	4f4	Report	  * OS Product Type = 0x00000008
+2018-10-31	12:51:29:059	 820	4f4	Report	WARNING: Failed to load reporting information from Win32_ComputerSystem with hr = 8004100a.
+2018-10-31	12:51:29:215	 820	4f4	Report	WARNING: Failed to load reporting information from Win32_BiosProperties with hr = 8004100a.
+2018-10-31	12:51:29:215	 820	4f4	Report	  * Locale ID = 2052
+2018-10-31	12:51:29:293	 820	4f4	AU	Successfully wrote event for AU health state:0
+2018-10-31	12:51:29:293	 820	4f4	AU	Successfully wrote event for AU health state:0
+2018-10-31	12:51:29:293	 820	4f4	AU	AU finished delayed initialization
+2018-10-31	12:51:29:293	 820	4f4	AU	AU setting next sqm report timeout to 2018-11-01 04:51:29
+2018-10-31	12:51:34:468	 820	5bc	Report	CWERReporter finishing event handling. (00000000)
+2018-10-31	12:51:35:997	 820	4f4	AU	AU initiates service shutdown
+2018-10-31	12:51:35:997	 820	4f4	AU	###########  AU: Uninitializing Automatic Updates  ###########
+2018-10-31	12:51:36:106	 820	4f4	Report	CWERReporter finishing event handling. (00000000)
+2018-10-31	12:51:36:122	 820	4f4	Service	*********
+2018-10-31	12:51:36:122	 820	4f4	Service	**  END  **  Service: Service exit [Exit code = 0x240001]
+2018-10-31	12:51:36:122	 820	4f4	Service	*************
+2018-10-31	12:55:22:237	 956	b28	Misc	===========  Logging initialized (build: 7.5.7601.17514, tz: +0800)  ===========
+2018-10-31	12:55:22:268	 956	b28	Misc	  = Process: C:\Windows\system32\svchost.exe
+2018-10-31	12:55:22:268	 956	b28	Misc	  = Module: c:\windows\system32\wuaueng.dll
+2018-10-31	12:55:22:237	 956	b28	Service	*************
+2018-10-31	12:55:22:268	 956	b28	Service	** START **  Service: Service startup
+2018-10-31	12:55:22:268	 956	b28	Service	*********
+2018-10-31	12:55:23:391	 956	b28	Agent	  * WU client version 7.5.7601.17514
+2018-10-31	12:55:23:391	 956	b28	Agent	  * Base directory: C:\Windows\SoftwareDistribution
+2018-10-31	12:55:23:391	 956	b28	Agent	  * Access type: No proxy
+2018-10-31	12:55:23:422	 956	b28	Agent	  * Network state: Connected
+2018-10-31	12:56:16:665	 956	b28	Report	CWERReporter::Init succeeded
+2018-10-31	12:56:16:665	 956	b28	Agent	***********  Agent: Initializing Windows Update Agent  ***********
+2018-10-31	12:56:16:665	 956	b28	Agent	***********  Agent: Initializing global settings cache  ***********
+2018-10-31	12:56:16:665	 956	b28	Agent	  * WSUS server: <NULL>
+2018-10-31	12:56:16:665	 956	b28	Agent	  * WSUS status server: <NULL>
+2018-10-31	12:56:16:665	 956	b28	Agent	  * Target group: (Unassigned Computers)
+2018-10-31	12:56:16:665	 956	b28	Agent	  * Windows Update access disabled: No
+2018-10-31	12:56:16:821	 956	b28	DnldMgr	Download manager restoring 0 downloads
+2018-10-31	12:56:16:883	 956	b28	AU	###########  AU: Initializing Automatic Updates  ###########
+2018-10-31	12:56:16:915	 956	b28	AU	  # AU is not configured yet
+2018-10-31	12:56:16:915	 956	b28	AU	  # Will interact with non-admins (Non-admins are elevated (User preference))
+2018-10-31	12:56:16:915	 956	b28	AU	  # Accelerated install is required
+2018-10-31	12:56:16:915	 956	b28	Agent	Switching to hardware-verified ClientId.
+2018-10-31	12:56:16:915	 956	b28	AU	AU is not configured yet, generating timeout to launch setup wizard
+2018-10-31	12:56:17:008	 956	b28	AU	Initializing featured updates
+2018-10-31	12:56:17:008	 956	b28	AU	Found 0 cached featured updates
+2018-10-31	12:56:17:492	 956	b28	Agent	Created new random SusClientId 5d70cd2b-dff9-49bb-9237-070793be89cd. Old Id: 3c2077ef-9ebd-490f-bdec-db712d99ed3e.
+2018-10-31	12:56:17:492	 956	b28	Report	***********  Report: Initializing static reporting data  ***********
+2018-10-31	12:56:17:492	 956	b28	Report	  * OS Version = 6.1.7601.1.0.197008
+2018-10-31	12:56:17:492	 956	b28	Report	  * OS Product Type = 0x00000008
+2018-10-31	12:56:17:523	 956	b28	Report	  * Computer Brand = VMware, Inc.
+2018-10-31	12:56:17:523	 956	b28	Report	  * Computer Model = VMware Virtual Platform
+2018-10-31	12:56:17:523	 956	b28	Report	  * Bios Revision = 6.00
+2018-10-31	12:56:17:523	 956	b28	Report	  * Bios Name = PhoenixBIOS 4.0 Release 6.0     
+2018-10-31	12:56:17:523	 956	b28	Report	  * Bios Release Date = 2017-05-19T00:00:00
+2018-10-31	12:56:17:523	 956	b28	Report	  * Locale ID = 2052
+2018-10-31	12:56:17:757	 956	b28	AU	Successfully wrote event for AU health state:0
+2018-10-31	12:56:17:788	 956	b28	AU	Successfully wrote event for AU health state:0
+2018-10-31	12:56:17:788	 956	b28	AU	AU finished delayed initialization
+2018-10-31	12:56:22:811	 956	520	Report	CWERReporter finishing event handling. (00000000)
+2018-10-31	13:46:02:978	 956	b28	AU	AU initiates service shutdown
+2018-10-31	13:46:02:978	 956	b28	AU	###########  AU: Uninitializing Automatic Updates  ###########
+2018-10-31	13:46:03:056	 956	b28	Report	CWERReporter finishing event handling. (00000000)
+2018-10-31	13:46:03:056	 956	b28	Service	*********
+2018-10-31	13:46:03:056	 956	b28	Service	**  END  **  Service: Service exit [Exit code = 0x240001]
+2018-10-31	13:46:03:056	 956	b28	Service	*************
+2018-10-31	13:49:12:652	 812	608	Misc	===========  Logging initialized (build: 7.5.7601.17514, tz: +0800)  ===========
+2018-10-31	13:49:12:667	 812	608	Misc	  = Process: C:\Windows\system32\svchost.exe
+2018-10-31	13:49:12:667	 812	608	Misc	  = Module: c:\windows\system32\wuaueng.dll
+2018-10-31	13:49:12:652	 812	608	Service	*************
+2018-10-31	13:49:12:667	 812	608	Service	** START **  Service: Service startup
+2018-10-31	13:49:12:667	 812	608	Service	*********
+2018-10-31	13:49:12:886	 812	608	Agent	  * WU client version 7.5.7601.17514
+2018-10-31	13:49:12:886	 812	608	Agent	  * Base directory: C:\Windows\SoftwareDistribution
+2018-10-31	13:49:12:886	 812	608	Agent	  * Access type: No proxy
+2018-10-31	13:49:12:948	 812	608	Agent	  * Network state: Connected
+2018-10-31	13:49:58:999	 812	608	Report	CWERReporter::Init succeeded
+2018-10-31	13:49:58:999	 812	608	Agent	***********  Agent: Initializing Windows Update Agent  ***********
+2018-10-31	13:49:58:999	 812	608	Agent	***********  Agent: Initializing global settings cache  ***********
+2018-10-31	13:49:58:999	 812	608	Agent	  * WSUS server: <NULL>
+2018-10-31	13:49:58:999	 812	608	Agent	  * WSUS status server: <NULL>
+2018-10-31	13:49:58:999	 812	608	Agent	  * Target group: (Unassigned Computers)
+2018-10-31	13:49:58:999	 812	608	Agent	  * Windows Update access disabled: No
+2018-10-31	13:49:59:031	 812	608	DnldMgr	Download manager restoring 0 downloads
+2018-10-31	13:49:59:031	 812	608	AU	###########  AU: Initializing Automatic Updates  ###########
+2018-10-31	13:49:59:046	 812	608	AU	  # AU is not configured yet
+2018-10-31	13:49:59:046	 812	608	AU	  # Will interact with non-admins (Non-admins are elevated (User preference))
+2018-10-31	13:49:59:046	 812	608	AU	  # Accelerated install is required
+2018-10-31	13:49:59:046	 812	608	AU	AU is not configured yet, generating timeout to launch setup wizard
+2018-10-31	13:49:59:046	 812	608	AU	Initializing featured updates
+2018-10-31	13:49:59:046	 812	608	AU	Found 0 cached featured updates
+2018-10-31	13:49:59:171	 812	608	Report	***********  Report: Initializing static reporting data  ***********
+2018-10-31	13:49:59:171	 812	608	Report	  * OS Version = 6.1.7601.1.0.197008
+2018-10-31	13:49:59:171	 812	608	Report	  * OS Product Type = 0x00000008
+2018-10-31	13:49:59:171	 812	608	Report	  * Computer Brand = VMware, Inc.
+2018-10-31	13:49:59:171	 812	608	Report	  * Computer Model = VMware Virtual Platform
+2018-10-31	13:49:59:171	 812	608	Report	  * Bios Revision = 6.00
+2018-10-31	13:49:59:171	 812	608	Report	  * Bios Name = PhoenixBIOS 4.0 Release 6.0     
+2018-10-31	13:49:59:171	 812	608	Report	  * Bios Release Date = 2017-05-19T00:00:00
+2018-10-31	13:49:59:171	 812	608	Report	  * Locale ID = 2052
+2018-10-31	13:49:59:187	 812	608	AU	Successfully wrote event for AU health state:0
+2018-10-31	13:49:59:187	 812	608	AU	Successfully wrote event for AU health state:0
+2018-10-31	13:49:59:187	 812	608	AU	AU finished delayed initialization
+2018-10-31	13:50:04:226	 812	598	Report	CWERReporter finishing event handling. (00000000)
+2018-10-31	14:03:48:781	 812	608	AU	Setting timeout for delay launching accelerated install
+2018-10-31	14:03:58:796	 812	608	AU	Triggering accelerated install by calling UpdateNow
+2018-10-31	14:03:58:796	 812	608	AU	Can not call UpdateNow if AU is not configured for auto download)
+2018-10-31	14:03:58:796	 812	608	AU	WARNING: UpdateNow for accelerated install failed with hr:80070005
+2018-10-31	14:03:58:796	 812	608	AU	Accelerate Install required state reset
+2018-10-31	14:03:58:796	 812	608	AU	#############
+2018-10-31	14:03:58:796	 812	608	AU	## START ##  AU: Download updates
+2018-10-31	14:03:58:796	 812	608	AU	#########
+2018-10-31	14:03:58:796	 812	608	AU	  # Found no download approved updates.
+2018-10-31	14:03:58:796	 812	608	AU	#########
+2018-10-31	14:03:58:796	 812	608	AU	##  END  ##  AU: Download updates
+2018-10-31	14:03:58:796	 812	608	AU	#############
+2018-10-31	14:05:57:340	 812	650	Report	CWERReporter finishing event handling. (00000000)
+2018-10-31	14:10:06:254	 812	608	AU	AU initiates service shutdown
+2018-10-31	14:10:06:254	 812	608	AU	###########  AU: Uninitializing Automatic Updates  ###########
+2018-10-31	14:10:06:301	 812	608	Report	CWERReporter finishing event handling. (00000000)
+2018-10-31	14:10:06:301	 812	608	Service	*********
+2018-10-31	14:10:06:301	 812	608	Service	**  END  **  Service: Service exit [Exit code = 0x240001]
+2018-10-31	14:10:06:301	 812	608	Service	*************
+2018-10-31	14:12:52:584	 808	43c	Misc	===========  Logging initialized (build: 7.5.7601.17514, tz: +0800)  ===========
+2018-10-31	14:12:52:600	 808	43c	Misc	  = Process: C:\Windows\system32\svchost.exe
+2018-10-31	14:12:52:600	 808	43c	Misc	  = Module: c:\windows\system32\wuaueng.dll
+2018-10-31	14:12:52:584	 808	43c	Service	*************
+2018-10-31	14:12:52:600	 808	43c	Service	** START **  Service: Service startup
+2018-10-31	14:12:52:600	 808	43c	Service	*********
+2018-10-31	14:12:52:912	 808	43c	Agent	  * WU client version 7.5.7601.17514
+2018-10-31	14:12:53:364	 808	43c	Agent	  * Base directory: C:\Windows\SoftwareDistribution
+2018-10-31	14:12:53:364	 808	43c	Agent	  * Access type: No proxy
+2018-10-31	14:12:53:395	 808	43c	Agent	  * Network state: Connected
+2018-10-31	14:13:39:065	 808	43c	Report	CWERReporter::Init succeeded
+2018-10-31	14:13:39:065	 808	43c	Agent	***********  Agent: Initializing Windows Update Agent  ***********
+2018-10-31	14:13:39:065	 808	43c	Agent	***********  Agent: Initializing global settings cache  ***********
+2018-10-31	14:13:39:065	 808	43c	Agent	  * WSUS server: <NULL>
+2018-10-31	14:13:39:065	 808	43c	Agent	  * WSUS status server: <NULL>
+2018-10-31	14:13:39:065	 808	43c	Agent	  * Target group: (Unassigned Computers)
+2018-10-31	14:13:39:065	 808	43c	Agent	  * Windows Update access disabled: No
+2018-10-31	14:13:39:143	 808	43c	DnldMgr	Download manager restoring 0 downloads
+2018-10-31	14:13:39:143	 808	43c	AU	###########  AU: Initializing Automatic Updates  ###########
+2018-10-31	14:13:39:158	 808	43c	AU	  # AU is not configured yet
+2018-10-31	14:13:39:158	 808	43c	AU	  # Will interact with non-admins (Non-admins are elevated (User preference))
+2018-10-31	14:13:39:158	 808	43c	AU	AU is not configured yet, generating timeout to launch setup wizard
+2018-10-31	14:13:39:158	 808	43c	AU	Initializing featured updates
+2018-10-31	14:13:39:158	 808	43c	AU	Found 0 cached featured updates
+2018-10-31	14:13:39:377	 808	43c	Report	***********  Report: Initializing static reporting data  ***********
+2018-10-31	14:13:39:377	 808	43c	Report	  * OS Version = 6.1.7601.1.0.197008
+2018-10-31	14:13:39:392	 808	43c	Report	  * OS Product Type = 0x00000008
+2018-10-31	14:13:39:408	 808	43c	Report	  * Computer Brand = VMware, Inc.
+2018-10-31	14:13:39:408	 808	43c	Report	  * Computer Model = VMware Virtual Platform
+2018-10-31	14:13:39:408	 808	43c	Report	  * Bios Revision = 6.00
+2018-10-31	14:13:39:408	 808	43c	Report	  * Bios Name = PhoenixBIOS 4.0 Release 6.0     
+2018-10-31	14:13:39:408	 808	43c	Report	  * Bios Release Date = 2017-05-19T00:00:00
+2018-10-31	14:13:39:408	 808	43c	Report	  * Locale ID = 2052
+2018-10-31	14:13:39:486	 808	43c	AU	Successfully wrote event for AU health state:0
+2018-10-31	14:13:39:486	 808	43c	AU	Successfully wrote event for AU health state:0
+2018-10-31	14:13:39:486	 808	43c	AU	AU finished delayed initialization
+2018-10-31	14:13:44:507	 808	864	Report	CWERReporter finishing event handling. (00000000)
+2018-10-31	15:54:20:296	 808	43c	AU	AU received policy change subscription event
+2018-10-31	16:05:59:191	 808	43c	AU	AU received policy change subscription event
+2018-10-31	16:12:06:556	 808	43c	AU	AU received policy change subscription event
+2018-10-31	16:17:41:691	 808	43c	AU	AU received policy change subscription event
+2018-10-31	16:20:57:799	 808	43c	AU	AU initiates service shutdown
+2018-10-31	16:20:57:799	 808	43c	AU	###########  AU: Uninitializing Automatic Updates  ###########
+2018-10-31	16:20:57:831	 808	43c	Report	CWERReporter finishing event handling. (00000000)
+2018-10-31	16:20:57:831	 808	43c	Service	*********
+2018-10-31	16:20:57:831	 808	43c	Service	**  END  **  Service: Service exit [Exit code = 0x240001]
+2018-10-31	16:20:57:831	 808	43c	Service	*************
+2018-10-31	16:23:36:810	 816	838	Misc	===========  Logging initialized (build: 7.5.7601.17514, tz: +0800)  ===========
+2018-10-31	16:23:36:841	 816	838	Misc	  = Process: C:\Windows\system32\svchost.exe
+2018-10-31	16:23:36:841	 816	838	Misc	  = Module: c:\windows\system32\wuaueng.dll
+2018-10-31	16:23:36:810	 816	838	Service	*************
+2018-10-31	16:23:36:841	 816	838	Service	** START **  Service: Service startup
+2018-10-31	16:23:36:841	 816	838	Service	*********
+2018-10-31	16:23:37:575	 816	838	Agent	  * WU client version 7.5.7601.17514
+2018-10-31	16:23:37:575	 816	838	Agent	  * Base directory: C:\Windows\SoftwareDistribution
+2018-10-31	16:23:37:575	 816	838	Agent	  * Access type: No proxy
+2018-10-31	16:23:37:606	 816	838	Agent	  * Network state: Connected
+2018-10-31	16:24:23:126	 816	838	Report	CWERReporter::Init succeeded
+2018-10-31	16:24:23:126	 816	838	Agent	***********  Agent: Initializing Windows Update Agent  ***********
+2018-10-31	16:24:23:126	 816	838	Agent	***********  Agent: Initializing global settings cache  ***********
+2018-10-31	16:24:23:126	 816	838	Agent	  * WSUS server: <NULL>
+2018-10-31	16:24:23:126	 816	838	Agent	  * WSUS status server: <NULL>
+2018-10-31	16:24:23:126	 816	838	Agent	  * Target group: (Unassigned Computers)
+2018-10-31	16:24:23:126	 816	838	Agent	  * Windows Update access disabled: No
+2018-10-31	16:24:23:142	 816	838	DnldMgr	Download manager restoring 0 downloads
+2018-10-31	16:24:23:157	 816	838	AU	###########  AU: Initializing Automatic Updates  ###########
+2018-10-31	16:24:23:173	 816	838	AU	  # AU is not configured yet
+2018-10-31	16:24:23:173	 816	838	AU	  # Will interact with non-admins (Non-admins are elevated (User preference))
+2018-10-31	16:24:23:173	 816	838	AU	AU is not configured yet, generating timeout to launch setup wizard
+2018-10-31	16:24:23:173	 816	838	AU	Initializing featured updates
+2018-10-31	16:24:23:173	 816	838	AU	Found 0 cached featured updates
+2018-10-31	16:24:23:267	 816	838	Report	***********  Report: Initializing static reporting data  ***********
+2018-10-31	16:24:23:267	 816	838	Report	  * OS Version = 6.1.7601.1.0.197008
+2018-10-31	16:24:23:267	 816	838	Report	  * OS Product Type = 0x00000008
+2018-10-31	16:24:23:282	 816	838	Report	  * Computer Brand = VMware, Inc.
+2018-10-31	16:24:23:282	 816	838	Report	  * Computer Model = VMware Virtual Platform
+2018-10-31	16:24:23:282	 816	838	Report	  * Bios Revision = 6.00
+2018-10-31	16:24:23:282	 816	838	Report	  * Bios Name = PhoenixBIOS 4.0 Release 6.0     
+2018-10-31	16:24:23:282	 816	838	Report	  * Bios Release Date = 2017-05-19T00:00:00
+2018-10-31	16:24:23:282	 816	838	Report	  * Locale ID = 2052
+2018-10-31	16:24:23:313	 816	838	AU	Successfully wrote event for AU health state:0
+2018-10-31	16:24:23:313	 816	838	AU	Successfully wrote event for AU health state:0
+2018-10-31	16:24:23:313	 816	838	AU	AU finished delayed initialization
+2018-10-31	16:24:28:354	 816	104	Report	CWERReporter finishing event handling. (00000000)
+2018-10-31	18:51:14:460	 816	838	AU	AU initiates service shutdown
+2018-10-31	18:51:14:460	 816	838	AU	###########  AU: Uninitializing Automatic Updates  ###########
+2018-10-31	18:51:14:507	 816	838	Report	CWERReporter finishing event handling. (00000000)
+2018-10-31	18:51:14:507	 816	838	Service	*********
+2018-10-31	18:51:14:507	 816	838	Service	**  END  **  Service: Service exit [Exit code = 0x240001]
+2018-10-31	18:51:14:507	 816	838	Service	*************
+2018-11-01	10:26:58:906	 808	8b4	Misc	===========  Logging initialized (build: 7.5.7601.17514, tz: +0800)  ===========
+2018-11-01	10:26:59:639	 808	8b4	Misc	  = Process: C:\Windows\system32\svchost.exe
+2018-11-01	10:26:59:702	 808	8b4	Misc	  = Module: c:\windows\system32\wuaueng.dll
+2018-11-01	10:26:58:906	 808	8b4	Service	*************
+2018-11-01	10:26:59:702	 808	8b4	Service	** START **  Service: Service startup
+2018-11-01	10:26:59:717	 808	8b4	Service	*********
+2018-11-01	10:26:59:905	 808	8b4	Agent	  * WU client version 7.5.7601.17514
+2018-11-01	10:26:59:920	 808	8b4	Agent	  * Base directory: C:\Windows\SoftwareDistribution
+2018-11-01	10:26:59:920	 808	8b4	Agent	  * Access type: No proxy
+2018-11-01	10:26:59:936	 808	8b4	Agent	  * Network state: Connected
+2018-11-01	10:27:45:535	 808	8b4	Report	CWERReporter::Init succeeded
+2018-11-01	10:27:45:535	 808	8b4	Agent	***********  Agent: Initializing Windows Update Agent  ***********
+2018-11-01	10:27:45:535	 808	8b4	Agent	***********  Agent: Initializing global settings cache  ***********
+2018-11-01	10:27:45:535	 808	8b4	Agent	  * WSUS server: <NULL>
+2018-11-01	10:27:45:535	 808	8b4	Agent	  * WSUS status server: <NULL>
+2018-11-01	10:27:45:535	 808	8b4	Agent	  * Target group: (Unassigned Computers)
+2018-11-01	10:27:45:535	 808	8b4	Agent	  * Windows Update access disabled: No
+2018-11-01	10:27:45:566	 808	8b4	DnldMgr	Download manager restoring 0 downloads
+2018-11-01	10:27:45:566	 808	8b4	AU	###########  AU: Initializing Automatic Updates  ###########
+2018-11-01	10:27:45:581	 808	8b4	AU	  # AU is not configured yet
+2018-11-01	10:27:45:581	 808	8b4	AU	  # Will interact with non-admins (Non-admins are elevated (User preference))
+2018-11-01	10:27:45:581	 808	8b4	AU	AU is not configured yet, generating timeout to launch setup wizard
+2018-11-01	10:27:45:581	 808	8b4	AU	Initializing featured updates
+2018-11-01	10:27:45:581	 808	8b4	AU	Found 0 cached featured updates
+2018-11-01	10:27:45:675	 808	8b4	Report	***********  Report: Initializing static reporting data  ***********
+2018-11-01	10:27:45:675	 808	8b4	Report	  * OS Version = 6.1.7601.1.0.197008
+2018-11-01	10:27:45:675	 808	8b4	Report	  * OS Product Type = 0x00000008
+2018-11-01	10:27:45:675	 808	8b4	Report	  * Computer Brand = VMware, Inc.
+2018-11-01	10:27:45:675	 808	8b4	Report	  * Computer Model = VMware Virtual Platform
+2018-11-01	10:27:45:691	 808	8b4	Report	  * Bios Revision = 6.00
+2018-11-01	10:27:45:691	 808	8b4	Report	  * Bios Name = PhoenixBIOS 4.0 Release 6.0     
+2018-11-01	10:27:45:691	 808	8b4	Report	  * Bios Release Date = 2017-05-19T00:00:00
+2018-11-01	10:27:45:691	 808	8b4	Report	  * Locale ID = 2052
+2018-11-01	10:27:45:706	 808	8b4	AU	Successfully wrote event for AU health state:0
+2018-11-01	10:27:45:706	 808	8b4	AU	Successfully wrote event for AU health state:0
+2018-11-01	10:27:45:706	 808	8b4	AU	AU finished delayed initialization
+2018-11-01	10:27:50:729	 808	bd4	Report	CWERReporter finishing event handling. (00000000)
+2018-11-01	12:51:29:007	 808	8b4	AU	AU setting next sqm report timeout to 2018-11-02 04:51:29
+2018-11-01	19:23:23:806	 808	8b4	AU	AU initiates service shutdown
+2018-11-01	19:23:23:806	 808	8b4	AU	###########  AU: Uninitializing Automatic Updates  ###########
+2018-11-01	19:23:23:853	 808	8b4	Report	CWERReporter finishing event handling. (00000000)
+2018-11-01	19:23:23:853	 808	8b4	Service	*********
+2018-11-01	19:23:23:853	 808	8b4	Service	**  END  **  Service: Service exit [Exit code = 0x240001]
+2018-11-01	19:23:23:853	 808	8b4	Service	*************
+2018-11-02	16:29:14:348	 816	828	Misc	===========  Logging initialized (build: 7.5.7601.17514, tz: +0800)  ===========
+2018-11-02	16:29:14:379	 816	828	Misc	  = Process: C:\Windows\system32\svchost.exe
+2018-11-02	16:29:14:379	 816	828	Misc	  = Module: c:\windows\system32\wuaueng.dll
+2018-11-02	16:29:14:348	 816	828	Service	*************
+2018-11-02	16:29:14:379	 816	828	Service	** START **  Service: Service startup
+2018-11-02	16:29:14:395	 816	828	Service	*********
+2018-11-02	16:29:15:066	 816	828	Agent	  * WU client version 7.5.7601.17514
+2018-11-02	16:29:15:066	 816	828	Agent	  * Base directory: C:\Windows\SoftwareDistribution
+2018-11-02	16:29:15:066	 816	828	Agent	  * Access type: No proxy
+2018-11-02	16:29:15:081	 816	828	Agent	  * Network state: Connected
+2018-11-02	16:30:00:789	 816	828	Report	CWERReporter::Init succeeded
+2018-11-02	16:30:00:789	 816	828	Agent	***********  Agent: Initializing Windows Update Agent  ***********
+2018-11-02	16:30:00:789	 816	828	Agent	***********  Agent: Initializing global settings cache  ***********
+2018-11-02	16:30:00:789	 816	828	Agent	  * WSUS server: <NULL>
+2018-11-02	16:30:00:789	 816	828	Agent	  * WSUS status server: <NULL>
+2018-11-02	16:30:00:789	 816	828	Agent	  * Target group: (Unassigned Computers)
+2018-11-02	16:30:00:789	 816	828	Agent	  * Windows Update access disabled: No
+2018-11-02	16:30:00:805	 816	828	DnldMgr	Download manager restoring 0 downloads
+2018-11-02	16:30:00:805	 816	828	AU	###########  AU: Initializing Automatic Updates  ###########
+2018-11-02	16:30:00:820	 816	828	AU	AU setting next sqm report timeout to 2018-11-02 08:30:00
+2018-11-02	16:30:00:820	 816	828	AU	  # AU is not configured yet
+2018-11-02	16:30:00:820	 816	828	AU	  # Will interact with non-admins (Non-admins are elevated (User preference))
+2018-11-02	16:30:00:820	 816	828	AU	AU is not configured yet, generating timeout to launch setup wizard
+2018-11-02	16:30:00:836	 816	828	AU	Initializing featured updates
+2018-11-02	16:30:00:836	 816	828	AU	Found 0 cached featured updates
+2018-11-02	16:30:00:930	 816	828	Report	***********  Report: Initializing static reporting data  ***********
+2018-11-02	16:30:00:930	 816	828	Report	  * OS Version = 6.1.7601.1.0.197008
+2018-11-02	16:30:00:930	 816	828	Report	  * OS Product Type = 0x00000008
+2018-11-02	16:30:00:961	 816	828	Report	  * Computer Brand = VMware, Inc.
+2018-11-02	16:30:00:961	 816	828	Report	  * Computer Model = VMware Virtual Platform
+2018-11-02	16:30:00:961	 816	828	Report	  * Bios Revision = 6.00
+2018-11-02	16:30:00:961	 816	828	Report	  * Bios Name = PhoenixBIOS 4.0 Release 6.0     
+2018-11-02	16:30:00:961	 816	828	Report	  * Bios Release Date = 2017-05-19T00:00:00
+2018-11-02	16:30:00:961	 816	828	Report	  * Locale ID = 2052
+2018-11-02	16:30:00:976	 816	828	AU	Successfully wrote event for AU health state:0
+2018-11-02	16:30:00:976	 816	828	AU	Successfully wrote event for AU health state:0
+2018-11-02	16:30:00:976	 816	828	AU	AU finished delayed initialization
+2018-11-02	16:30:00:976	 816	828	AU	AU setting next sqm report timeout to 2018-11-03 08:30:00
+2018-11-02	16:30:06:031	 816	9d0	Report	CWERReporter finishing event handling. (00000000)
+2018-11-02	20:40:52:221	 816	828	AU	AU initiates service shutdown
+2018-11-02	20:40:52:221	 816	828	AU	###########  AU: Uninitializing Automatic Updates  ###########
+2018-11-02	20:40:52:236	 816	828	Report	CWERReporter finishing event handling. (00000000)
+2018-11-02	20:40:52:236	 816	828	Service	*********
+2018-11-02	20:40:52:236	 816	828	Service	**  END  **  Service: Service exit [Exit code = 0x240001]
+2018-11-02	20:40:52:236	 816	828	Service	*************
+2018-11-05	10:00:13:490	 820	824	Misc	===========  Logging initialized (build: 7.5.7601.17514, tz: +0800)  ===========
+2018-11-05	10:00:13:521	 820	824	Misc	  = Process: C:\Windows\system32\svchost.exe
+2018-11-05	10:00:13:521	 820	824	Misc	  = Module: c:\windows\system32\wuaueng.dll
+2018-11-05	10:00:13:490	 820	824	Service	*************
+2018-11-05	10:00:13:521	 820	824	Service	** START **  Service: Service startup
+2018-11-05	10:00:13:521	 820	824	Service	*********
+2018-11-05	10:00:14:285	 820	824	Agent	  * WU client version 7.5.7601.17514
+2018-11-05	10:00:14:285	 820	824	Agent	  * Base directory: C:\Windows\SoftwareDistribution
+2018-11-05	10:00:14:285	 820	824	Agent	  * Access type: No proxy
+2018-11-05	10:00:14:301	 820	824	Agent	  * Network state: Connected
+2018-11-05	10:01:01:023	 820	824	Report	CWERReporter::Init succeeded
+2018-11-05	10:01:01:023	 820	824	Agent	***********  Agent: Initializing Windows Update Agent  ***********
+2018-11-05	10:01:01:023	 820	824	Agent	***********  Agent: Initializing global settings cache  ***********
+2018-11-05	10:01:01:023	 820	824	Agent	  * WSUS server: <NULL>
+2018-11-05	10:01:01:023	 820	824	Agent	  * WSUS status server: <NULL>
+2018-11-05	10:01:01:023	 820	824	Agent	  * Target group: (Unassigned Computers)
+2018-11-05	10:01:01:023	 820	824	Agent	  * Windows Update access disabled: No
+2018-11-05	10:01:01:335	 820	824	DnldMgr	Download manager restoring 0 downloads
+2018-11-05	10:01:01:335	 820	824	AU	###########  AU: Initializing Automatic Updates  ###########
+2018-11-05	10:01:01:382	 820	824	AU	AU setting next sqm report timeout to 2018-11-05 02:01:01
+2018-11-05	10:01:01:397	 820	824	AU	  # AU is not configured yet
+2018-11-05	10:01:01:397	 820	824	AU	  # Will interact with non-admins (Non-admins are elevated (User preference))
+2018-11-05	10:01:01:397	 820	824	AU	AU is not configured yet, generating timeout to launch setup wizard
+2018-11-05	10:01:01:397	 820	824	AU	Initializing featured updates
+2018-11-05	10:01:01:397	 820	824	AU	Found 0 cached featured updates
+2018-11-05	10:01:02:021	 820	824	Report	***********  Report: Initializing static reporting data  ***********
+2018-11-05	10:01:02:021	 820	824	Report	  * OS Version = 6.1.7601.1.0.197008
+2018-11-05	10:01:02:021	 820	824	Report	  * OS Product Type = 0x00000008
+2018-11-05	10:01:02:131	 820	824	Report	  * Computer Brand = VMware, Inc.
+2018-11-05	10:01:02:131	 820	824	Report	  * Computer Model = VMware Virtual Platform
+2018-11-05	10:01:02:131	 820	824	Report	  * Bios Revision = 6.00
+2018-11-05	10:01:02:131	 820	824	Report	  * Bios Name = PhoenixBIOS 4.0 Release 6.0     
+2018-11-05	10:01:02:131	 820	824	Report	  * Bios Release Date = 2017-05-19T00:00:00
+2018-11-05	10:01:02:131	 820	824	Report	  * Locale ID = 2052
+2018-11-05	10:01:02:458	 820	824	AU	Successfully wrote event for AU health state:0
+2018-11-05	10:01:02:458	 820	824	AU	Successfully wrote event for AU health state:0
+2018-11-05	10:01:02:458	 820	824	AU	AU finished delayed initialization
+2018-11-05	10:01:02:458	 820	824	AU	AU setting next sqm report timeout to 2018-11-06 02:01:02
+2018-11-05	10:01:07:559	 820	a24	Report	CWERReporter finishing event handling. (00000000)
+2018-11-05	13:53:36:267	 820	1120	Report	CWERReporter finishing event handling. (00000000)
+2018-11-05	13:53:42:273	 820	1120	Report	CWERReporter finishing event handling. (00000000)
+2018-11-05	13:53:47:282	 820	1120	Report	CWERReporter finishing event handling. (00000000)
+2018-11-05	13:53:53:665	 820	1120	Report	CWERReporter finishing event handling. (00000000)
+2018-11-05	19:29:56:583	 820	824	AU	AU initiates service shutdown
+2018-11-05	19:29:56:583	 820	824	AU	###########  AU: Uninitializing Automatic Updates  ###########
+2018-11-05	19:29:56:615	 820	824	Report	CWERReporter finishing event handling. (00000000)
+2018-11-05	19:29:56:615	 820	824	Service	*********
+2018-11-05	19:29:56:615	 820	824	Service	**  END  **  Service: Service exit [Exit code = 0x240001]
+2018-11-05	19:29:56:615	 820	824	Service	*************
+2018-11-06	14:23:35:268	 820	ae4	Misc	===========  Logging initialized (build: 7.5.7601.17514, tz: +0800)  ===========
+2018-11-06	14:23:35:424	 820	ae4	Misc	  = Process: C:\Windows\system32\svchost.exe
+2018-11-06	14:23:35:424	 820	ae4	Misc	  = Module: c:\windows\system32\wuaueng.dll
+2018-11-06	14:23:35:268	 820	ae4	Service	*************
+2018-11-06	14:23:35:424	 820	ae4	Service	** START **  Service: Service startup
+2018-11-06	14:23:35:424	 820	ae4	Service	*********
+2018-11-06	14:23:36:267	 820	ae4	Agent	  * WU client version 7.5.7601.17514
+2018-11-06	14:23:36:267	 820	ae4	Agent	  * Base directory: C:\Windows\SoftwareDistribution
+2018-11-06	14:23:36:267	 820	ae4	Agent	  * Access type: No proxy
+2018-11-06	14:23:36:282	 820	ae4	Agent	  * Network state: Connected
+2018-11-06	14:24:22:053	 820	ae4	Report	CWERReporter::Init succeeded
+2018-11-06	14:24:22:053	 820	ae4	Agent	***********  Agent: Initializing Windows Update Agent  ***********
+2018-11-06	14:24:22:053	 820	ae4	Agent	***********  Agent: Initializing global settings cache  ***********
+2018-11-06	14:24:22:053	 820	ae4	Agent	  * WSUS server: <NULL>
+2018-11-06	14:24:22:053	 820	ae4	Agent	  * WSUS status server: <NULL>
+2018-11-06	14:24:22:053	 820	ae4	Agent	  * Target group: (Unassigned Computers)
+2018-11-06	14:24:22:053	 820	ae4	Agent	  * Windows Update access disabled: No
+2018-11-06	14:24:22:068	 820	ae4	DnldMgr	Download manager restoring 0 downloads
+2018-11-06	14:24:22:068	 820	ae4	AU	###########  AU: Initializing Automatic Updates  ###########
+2018-11-06	14:24:22:084	 820	ae4	AU	AU setting next sqm report timeout to 2018-11-06 06:24:22
+2018-11-06	14:24:22:084	 820	ae4	AU	  # AU is not configured yet
+2018-11-06	14:24:22:084	 820	ae4	AU	  # Will interact with non-admins (Non-admins are elevated (User preference))
+2018-11-06	14:24:22:084	 820	ae4	AU	AU is not configured yet, generating timeout to launch setup wizard
+2018-11-06	14:24:22:084	 820	ae4	AU	Initializing featured updates
+2018-11-06	14:24:22:084	 820	ae4	AU	Found 0 cached featured updates
+2018-11-06	14:24:22:193	 820	ae4	Report	***********  Report: Initializing static reporting data  ***********
+2018-11-06	14:24:22:193	 820	ae4	Report	  * OS Version = 6.1.7601.1.0.197008
+2018-11-06	14:24:22:193	 820	ae4	Report	  * OS Product Type = 0x00000008
+2018-11-06	14:24:22:193	 820	ae4	Report	  * Computer Brand = VMware, Inc.
+2018-11-06	14:24:22:193	 820	ae4	Report	  * Computer Model = VMware Virtual Platform
+2018-11-06	14:24:22:193	 820	ae4	Report	  * Bios Revision = 6.00
+2018-11-06	14:24:22:193	 820	ae4	Report	  * Bios Name = PhoenixBIOS 4.0 Release 6.0     
+2018-11-06	14:24:22:193	 820	ae4	Report	  * Bios Release Date = 2017-05-19T00:00:00
+2018-11-06	14:24:22:193	 820	ae4	Report	  * Locale ID = 2052
+2018-11-06	14:24:22:209	 820	ae4	AU	Successfully wrote event for AU health state:0
+2018-11-06	14:24:22:209	 820	ae4	AU	Successfully wrote event for AU health state:0
+2018-11-06	14:24:22:224	 820	ae4	AU	AU finished delayed initialization
+2018-11-06	14:24:22:224	 820	ae4	AU	AU setting next sqm report timeout to 2018-11-07 06:24:22
+2018-11-06	14:24:27:247	 820	130	Report	CWERReporter finishing event handling. (00000000)
+2018-11-16	18:18:35:794	 820	ae4	AU	AU setting next sqm report timeout to 2018-11-17 10:18:35
+2018-11-16	18:18:40:801	 820	b10	Report	CWERReporter finishing event handling. (00000000)
+2018-11-16	18:27:14:432	 820	ae4	AU	AU initiates service shutdown
+2018-11-16	18:27:14:432	 820	ae4	AU	###########  AU: Uninitializing Automatic Updates  ###########
+2018-11-16	18:27:14:447	 820	ae4	Report	CWERReporter finishing event handling. (00000000)
+2018-11-16	18:27:14:447	 820	ae4	Service	*********
+2018-11-16	18:27:14:447	 820	ae4	Service	**  END  **  Service: Service exit [Exit code = 0x240001]
+2018-11-16	18:27:14:447	 820	ae4	Service	*************
+2018-11-16	18:30:33:586	 808	288	Misc	===========  Logging initialized (build: 7.5.7601.17514, tz: +0800)  ===========
+2018-11-16	18:30:34:132	 808	288	Misc	  = Process: C:\Windows\system32\svchost.exe
+2018-11-16	18:30:34:132	 808	288	Misc	  = Module: c:\windows\system32\wuaueng.dll
+2018-11-16	18:30:33:586	 808	288	Service	*************
+2018-11-16	18:30:34:132	 808	288	Service	** START **  Service: Service startup
+2018-11-16	18:30:34:148	 808	288	Service	*********
+2018-11-16	18:30:34:398	 808	288	Agent	  * WU client version 7.5.7601.17514
+2018-11-16	18:30:34:413	 808	288	Agent	  * Base directory: C:\Windows\SoftwareDistribution
+2018-11-16	18:30:34:413	 808	288	Agent	  * Access type: No proxy
+2018-11-16	18:30:34:445	 808	288	Agent	  * Network state: Connected
+2018-11-16	18:31:20:781	 808	288	Report	CWERReporter::Init succeeded
+2018-11-16	18:31:20:781	 808	288	Agent	***********  Agent: Initializing Windows Update Agent  ***********
+2018-11-16	18:31:20:781	 808	288	Agent	***********  Agent: Initializing global settings cache  ***********
+2018-11-16	18:31:20:781	 808	288	Agent	  * WSUS server: <NULL>
+2018-11-16	18:31:20:781	 808	288	Agent	  * WSUS status server: <NULL>
+2018-11-16	18:31:20:781	 808	288	Agent	  * Target group: (Unassigned Computers)
+2018-11-16	18:31:20:781	 808	288	Agent	  * Windows Update access disabled: No
+2018-11-16	18:31:20:938	 808	288	DnldMgr	Download manager restoring 0 downloads
+2018-11-16	18:31:20:969	 808	288	AU	###########  AU: Initializing Automatic Updates  ###########
+2018-11-16	18:31:20:969	 808	288	AU	  # AU is not configured yet
+2018-11-16	18:31:20:969	 808	288	AU	  # Will interact with non-admins (Non-admins are elevated (User preference))
+2018-11-16	18:31:20:969	 808	288	AU	AU is not configured yet, generating timeout to launch setup wizard
+2018-11-16	18:31:20:969	 808	288	AU	Initializing featured updates
+2018-11-16	18:31:20:969	 808	288	AU	Found 0 cached featured updates
+2018-11-16	18:31:21:125	 808	288	Report	***********  Report: Initializing static reporting data  ***********
+2018-11-16	18:31:21:125	 808	288	Report	  * OS Version = 6.1.7601.1.0.197008
+2018-11-16	18:31:21:125	 808	288	Report	  * OS Product Type = 0x00000008
+2018-11-16	18:31:21:219	 808	288	Report	  * Computer Brand = VMware, Inc.
+2018-11-16	18:31:21:219	 808	288	Report	  * Computer Model = VMware Virtual Platform
+2018-11-16	18:31:21:219	 808	288	Report	  * Bios Revision = 6.00
+2018-11-16	18:31:21:219	 808	288	Report	  * Bios Name = PhoenixBIOS 4.0 Release 6.0     
+2018-11-16	18:31:21:219	 808	288	Report	  * Bios Release Date = 2017-05-19T00:00:00
+2018-11-16	18:31:21:219	 808	288	Report	  * Locale ID = 2052
+2018-11-16	18:31:21:250	 808	288	AU	Successfully wrote event for AU health state:0
+2018-11-16	18:31:21:250	 808	288	AU	Successfully wrote event for AU health state:0
+2018-11-16	18:31:21:250	 808	288	AU	AU finished delayed initialization
+2018-11-16	18:31:26:404	 808	734	Report	CWERReporter finishing event handling. (00000000)
+2018-11-16	21:17:38:270	 808	980	Report	CWERReporter finishing event handling. (00000000)
+2018-11-16	21:17:44:853	 808	980	Report	CWERReporter finishing event handling. (00000000)
+2018-11-16	21:17:49:846	 808	980	Report	CWERReporter finishing event handling. (00000000)
+2018-11-16	21:17:56:632	 808	980	Report	CWERReporter finishing event handling. (00000000)
+2018-11-16	22:18:53:779	 808	288	AU	AU initiates service shutdown
+2018-11-16	22:18:53:794	 808	288	AU	###########  AU: Uninitializing Automatic Updates  ###########
+2018-11-16	22:18:53:888	 808	288	Report	CWERReporter finishing event handling. (00000000)
+2018-11-16	22:18:53:888	 808	288	Service	*********
+2018-11-16	22:18:53:888	 808	288	Service	**  END  **  Service: Service exit [Exit code = 0x240001]
+2018-11-16	22:18:53:888	 808	288	Service	*************
+2018-11-16	23:43:28:145	 820	a74	Misc	===========  Logging initialized (build: 7.5.7601.17514, tz: +0800)  ===========
+2018-11-16	23:43:33:776	 820	a74	Misc	  = Process: C:\Windows\system32\svchost.exe
+2018-11-16	23:43:33:776	 820	a74	Misc	  = Module: c:\windows\system32\wuaueng.dll
+2018-11-16	23:43:27:911	 820	a74	Service	*************
+2018-11-16	23:43:33:792	 820	a74	Service	** START **  Service: Service startup
+2018-11-16	23:43:33:995	 820	a74	Service	*********
+2018-11-16	23:43:39:642	 820	a74	Agent	  * WU client version 7.5.7601.17514
+2018-11-16	23:43:40:422	 820	a74	Agent	  * Base directory: C:\Windows\SoftwareDistribution
+2018-11-16	23:43:40:734	 820	a74	Agent	  * Access type: No proxy
+2018-11-16	23:43:41:623	 820	a74	Agent	  * Network state: Connected
+2018-11-16	23:45:36:798	 820	a74	Report	CWERReporter::Init succeeded
+2018-11-16	23:45:36:798	 820	a74	Agent	***********  Agent: Initializing Windows Update Agent  ***********
+2018-11-16	23:45:36:798	 820	a74	Agent	***********  Agent: Initializing global settings cache  ***********
+2018-11-16	23:45:36:798	 820	a74	Agent	  * WSUS server: <NULL>
+2018-11-16	23:45:36:798	 820	a74	Agent	  * WSUS status server: <NULL>
+2018-11-16	23:45:36:798	 820	a74	Agent	  * Target group: (Unassigned Computers)
+2018-11-16	23:45:36:798	 820	a74	Agent	  * Windows Update access disabled: No
+2018-11-16	23:45:36:939	 820	a74	DnldMgr	Download manager restoring 0 downloads
+2018-11-16	23:45:36:970	 820	a74	AU	###########  AU: Initializing Automatic Updates  ###########
+2018-11-16	23:45:37:017	 820	a74	AU	  # AU is not configured yet
+2018-11-16	23:45:37:017	 820	a74	AU	  # Will interact with non-admins (Non-admins are elevated (User preference))
+2018-11-16	23:45:37:032	 820	a74	AU	AU is not configured yet, generating timeout to launch setup wizard
+2018-11-16	23:45:37:079	 820	a74	AU	Initializing featured updates
+2018-11-16	23:45:37:079	 820	a74	AU	Found 0 cached featured updates
+2018-11-16	23:45:42:945	 820	a74	Report	***********  Report: Initializing static reporting data  ***********
+2018-11-16	23:45:42:945	 820	a74	Report	  * OS Version = 6.1.7601.1.0.197008
+2018-11-16	23:45:42:945	 820	a74	Report	  * OS Product Type = 0x00000008
+2018-11-16	23:45:43:101	 820	a74	Report	  * Computer Brand = VMware, Inc.
+2018-11-16	23:45:43:101	 820	a74	Report	  * Computer Model = VMware Virtual Platform
+2018-11-16	23:45:43:101	 820	a74	Report	  * Bios Revision = 6.00
+2018-11-16	23:45:43:101	 820	a74	Report	  * Bios Name = PhoenixBIOS 4.0 Release 6.0     
+2018-11-16	23:45:43:101	 820	a74	Report	  * Bios Release Date = 2017-05-19T00:00:00
+2018-11-16	23:45:43:101	 820	a74	Report	  * Locale ID = 2052
+2018-11-16	23:45:43:350	 820	a74	AU	Successfully wrote event for AU health state:0
+2018-11-16	23:45:43:350	 820	a74	AU	Successfully wrote event for AU health state:0
+2018-11-16	23:45:43:350	 820	a74	AU	AU finished delayed initialization
+2018-11-16	23:45:48:779	 820	1b4	Report	CWERReporter finishing event handling. (00000000)
+2018-11-16	23:47:11:209	 820	a74	AU	AU initiates service shutdown
+2018-11-16	23:47:11:209	 820	a74	AU	###########  AU: Uninitializing Automatic Updates  ###########
+2018-11-16	23:47:11:241	 820	a74	Report	CWERReporter finishing event handling. (00000000)
+2018-11-16	23:47:11:287	 820	a74	Service	*********
+2018-11-16	23:47:11:287	 820	a74	Service	**  END  **  Service: Service exit [Exit code = 0x240001]
+2018-11-16	23:47:11:287	 820	a74	Service	*************
+2018-11-16	23:52:29:136	 816	260	Misc	===========  Logging initialized (build: 7.5.7601.17514, tz: +0800)  ===========
+2018-11-16	23:52:29:198	 816	260	Misc	  = Process: C:\Windows\system32\svchost.exe
+2018-11-16	23:52:29:198	 816	260	Misc	  = Module: c:\windows\system32\wuaueng.dll
+2018-11-16	23:52:29:136	 816	260	Service	*************
+2018-11-16	23:52:29:198	 816	260	Service	** START **  Service: Service startup
+2018-11-16	23:52:29:229	 816	260	Service	*********
+2018-11-16	23:52:43:003	 816	260	Agent	  * WU client version 7.5.7601.17514
+2018-11-16	23:52:43:049	 816	260	Agent	  * Base directory: C:\Windows\SoftwareDistribution
+2018-11-16	23:52:43:143	 816	260	Agent	  * Access type: No proxy
+2018-11-16	23:52:45:064	 816	260	Agent	  * Network state: Connected
+2018-11-16	23:54:22:928	 816	260	Report	CWERReporter::Init succeeded
+2018-11-16	23:54:22:928	 816	260	Agent	***********  Agent: Initializing Windows Update Agent  ***********
+2018-11-16	23:54:22:928	 816	260	Agent	***********  Agent: Initializing global settings cache  ***********
+2018-11-16	23:54:22:928	 816	260	Agent	  * WSUS server: <NULL>
+2018-11-16	23:54:22:928	 816	260	Agent	  * WSUS status server: <NULL>
+2018-11-16	23:54:22:928	 816	260	Agent	  * Target group: (Unassigned Computers)
+2018-11-16	23:54:22:928	 816	260	Agent	  * Windows Update access disabled: No
+2018-11-16	23:54:25:363	 816	260	DnldMgr	Download manager restoring 0 downloads
+2018-11-16	23:54:27:314	 816	260	AU	###########  AU: Initializing Automatic Updates  ###########
+2018-11-16	23:54:27:439	 816	260	AU	  # AU is not configured yet
+2018-11-16	23:54:27:439	 816	260	AU	  # Will interact with non-admins (Non-admins are elevated (User preference))
+2018-11-16	23:54:27:470	 816	260	AU	AU is not configured yet, generating timeout to launch setup wizard
+2018-11-16	23:54:27:517	 816	260	AU	Initializing featured updates
+2018-11-16	23:54:27:517	 816	260	AU	Found 0 cached featured updates
+2018-11-16	23:54:29:046	 816	260	Report	***********  Report: Initializing static reporting data  ***********
+2018-11-16	23:54:29:046	 816	260	Report	  * OS Version = 6.1.7601.1.0.197008
+2018-11-16	23:54:29:046	 816	260	Report	  * OS Product Type = 0x00000008
+2018-11-16	23:54:29:280	 816	260	Report	  * Computer Brand = VMware, Inc.
+2018-11-16	23:54:29:280	 816	260	Report	  * Computer Model = VMware Virtual Platform
+2018-11-16	23:54:29:280	 816	260	Report	  * Bios Revision = 6.00
+2018-11-16	23:54:29:280	 816	260	Report	  * Bios Name = PhoenixBIOS 4.0 Release 6.0     
+2018-11-16	23:54:29:280	 816	260	Report	  * Bios Release Date = 2017-05-19T00:00:00
+2018-11-16	23:54:29:280	 816	260	Report	  * Locale ID = 2052
+2018-11-16	23:54:29:514	 816	260	AU	Successfully wrote event for AU health state:0
+2018-11-16	23:54:29:514	 816	260	AU	Successfully wrote event for AU health state:0
+2018-11-16	23:54:29:514	 816	260	AU	AU finished delayed initialization
+2018-11-16	23:54:50:269	 816	208	Report	CWERReporter finishing event handling. (00000000)
+2018-11-16	23:56:36:606	 816	260	AU	AU initiates service shutdown
+2018-11-16	23:56:36:606	 816	260	AU	###########  AU: Uninitializing Automatic Updates  ###########
+2018-11-16	23:56:36:622	 816	260	Report	CWERReporter finishing event handling. (00000000)
+2018-11-16	23:56:36:684	 816	260	Service	*********
+2018-11-16	23:56:36:684	 816	260	Service	**  END  **  Service: Service exit [Exit code = 0x240001]
+2018-11-16	23:56:36:684	 816	260	Service	*************
+2018-11-16	23:59:29:789	 804	908	Misc	===========  Logging initialized (build: 7.5.7601.17514, tz: +0800)  ===========
+2018-11-16	23:59:29:820	 804	908	Misc	  = Process: C:\Windows\system32\svchost.exe
+2018-11-16	23:59:29:820	 804	908	Misc	  = Module: c:\windows\system32\wuaueng.dll
+2018-11-16	23:59:29:789	 804	908	Service	*************
+2018-11-16	23:59:29:820	 804	908	Service	** START **  Service: Service startup
+2018-11-16	23:59:29:835	 804	908	Service	*********
+2018-11-16	23:59:31:099	 804	908	Agent	  * WU client version 7.5.7601.17514
+2018-11-16	23:59:31:099	 804	908	Agent	  * Base directory: C:\Windows\SoftwareDistribution
+2018-11-16	23:59:31:099	 804	908	Agent	  * Access type: No proxy
+2018-11-16	23:59:31:115	 804	908	Agent	  * Network state: Connected
+2018-11-17	00:00:17:207	 804	908	Report	CWERReporter::Init succeeded
+2018-11-17	00:00:17:207	 804	908	Agent	***********  Agent: Initializing Windows Update Agent  ***********
+2018-11-17	00:00:17:207	 804	908	Agent	***********  Agent: Initializing global settings cache  ***********
+2018-11-17	00:00:17:207	 804	908	Agent	  * WSUS server: <NULL>
+2018-11-17	00:00:17:207	 804	908	Agent	  * WSUS status server: <NULL>
+2018-11-17	00:00:17:207	 804	908	Agent	  * Target group: (Unassigned Computers)
+2018-11-17	00:00:17:207	 804	908	Agent	  * Windows Update access disabled: No
+2018-11-17	00:00:17:239	 804	908	DnldMgr	Download manager restoring 0 downloads
+2018-11-17	00:00:17:239	 804	908	AU	###########  AU: Initializing Automatic Updates  ###########
+2018-11-17	00:00:17:254	 804	908	AU	  # AU is not configured yet
+2018-11-17	00:00:17:254	 804	908	AU	  # Will interact with non-admins (Non-admins are elevated (User preference))
+2018-11-17	00:00:17:254	 804	908	AU	AU is not configured yet, generating timeout to launch setup wizard
+2018-11-17	00:00:17:254	 804	908	AU	Initializing featured updates
+2018-11-17	00:00:17:254	 804	908	AU	Found 0 cached featured updates
+2018-11-17	00:00:17:363	 804	908	Report	***********  Report: Initializing static reporting data  ***********
+2018-11-17	00:00:17:363	 804	908	Report	  * OS Version = 6.1.7601.1.0.197008
+2018-11-17	00:00:17:363	 804	908	Report	  * OS Product Type = 0x00000008
+2018-11-17	00:00:17:363	 804	908	Report	  * Computer Brand = VMware, Inc.
+2018-11-17	00:00:17:363	 804	908	Report	  * Computer Model = VMware Virtual Platform
+2018-11-17	00:00:17:363	 804	908	Report	  * Bios Revision = 6.00
+2018-11-17	00:00:17:363	 804	908	Report	  * Bios Name = PhoenixBIOS 4.0 Release 6.0     
+2018-11-17	00:00:17:363	 804	908	Report	  * Bios Release Date = 2017-05-19T00:00:00
+2018-11-17	00:00:17:363	 804	908	Report	  * Locale ID = 2052
+2018-11-17	00:00:17:395	 804	908	AU	Successfully wrote event for AU health state:0
+2018-11-17	00:00:17:395	 804	908	AU	Successfully wrote event for AU health state:0
+2018-11-17	00:00:17:395	 804	908	AU	AU finished delayed initialization
+2018-11-17	00:00:22:434	 804	410	Report	CWERReporter finishing event handling. (00000000)
+2018-11-17	00:46:36:801	 804	908	AU	AU initiates service shutdown
+2018-11-17	00:46:36:801	 804	908	AU	###########  AU: Uninitializing Automatic Updates  ###########
+2018-11-17	00:46:36:832	 804	908	Report	CWERReporter finishing event handling. (00000000)
+2018-11-17	00:46:36:832	 804	908	Service	*********
+2018-11-17	00:46:36:832	 804	908	Service	**  END  **  Service: Service exit [Exit code = 0x240001]
+2018-11-17	00:46:36:832	 804	908	Service	*************
+2018-11-17	00:50:33:609	 812	60c	Misc	===========  Logging initialized (build: 7.5.7601.17514, tz: +0800)  ===========
+2018-11-17	00:50:33:671	 812	60c	Misc	  = Process: C:\Windows\system32\svchost.exe
+2018-11-17	00:50:33:671	 812	60c	Misc	  = Module: c:\windows\system32\wuaueng.dll
+2018-11-17	00:50:33:578	 812	60c	Service	*************
+2018-11-17	00:50:33:687	 812	60c	Service	** START **  Service: Service startup
+2018-11-17	00:50:33:687	 812	60c	Service	*********
+2018-11-17	00:50:34:403	 812	60c	Agent	  * WU client version 7.5.7601.17514
+2018-11-17	00:50:34:403	 812	60c	Agent	  * Base directory: C:\Windows\SoftwareDistribution
+2018-11-17	00:50:34:418	 812	60c	Agent	  * Access type: No proxy
+2018-11-17	00:50:34:418	 812	60c	Agent	  * Network state: Connected
+2018-11-17	00:51:20:121	 812	60c	Report	CWERReporter::Init succeeded
+2018-11-17	00:51:20:121	 812	60c	Agent	***********  Agent: Initializing Windows Update Agent  ***********
+2018-11-17	00:51:20:121	 812	60c	Agent	***********  Agent: Initializing global settings cache  ***********
+2018-11-17	00:51:20:121	 812	60c	Agent	  * WSUS server: <NULL>
+2018-11-17	00:51:20:121	 812	60c	Agent	  * WSUS status server: <NULL>
+2018-11-17	00:51:20:121	 812	60c	Agent	  * Target group: (Unassigned Computers)
+2018-11-17	00:51:20:121	 812	60c	Agent	  * Windows Update access disabled: No
+2018-11-17	00:51:20:137	 812	60c	DnldMgr	Download manager restoring 0 downloads
+2018-11-17	00:51:20:137	 812	60c	AU	###########  AU: Initializing Automatic Updates  ###########
+2018-11-17	00:51:20:153	 812	60c	AU	  # AU is not configured yet
+2018-11-17	00:51:20:153	 812	60c	AU	  # Will interact with non-admins (Non-admins are elevated (User preference))
+2018-11-17	00:51:20:153	 812	60c	AU	AU is not configured yet, generating timeout to launch setup wizard
+2018-11-17	00:51:20:153	 812	60c	AU	Initializing featured updates
+2018-11-17	00:51:20:153	 812	60c	AU	Found 0 cached featured updates
+2018-11-17	00:51:20:246	 812	60c	Report	***********  Report: Initializing static reporting data  ***********
+2018-11-17	00:51:20:246	 812	60c	Report	  * OS Version = 6.1.7601.1.0.197008
+2018-11-17	00:51:20:246	 812	60c	Report	  * OS Product Type = 0x00000008
+2018-11-17	00:51:20:262	 812	60c	Report	  * Computer Brand = VMware, Inc.
+2018-11-17	00:51:20:262	 812	60c	Report	  * Computer Model = VMware Virtual Platform
+2018-11-17	00:51:20:262	 812	60c	Report	  * Bios Revision = 6.00
+2018-11-17	00:51:20:262	 812	60c	Report	  * Bios Name = PhoenixBIOS 4.0 Release 6.0     
+2018-11-17	00:51:20:262	 812	60c	Report	  * Bios Release Date = 2017-05-19T00:00:00
+2018-11-17	00:51:20:262	 812	60c	Report	  * Locale ID = 2052
+2018-11-17	00:51:20:277	 812	60c	AU	Successfully wrote event for AU health state:0
+2018-11-17	00:51:20:277	 812	60c	AU	Successfully wrote event for AU health state:0
+2018-11-17	00:51:20:277	 812	60c	AU	AU finished delayed initialization
+2018-11-17	00:51:25:321	 812	630	Report	CWERReporter finishing event handling. (00000000)
+2018-11-17	10:38:45:589	 812	60c	AU	AU initiates service shutdown
+2018-11-17	10:38:45:589	 812	60c	AU	###########  AU: Uninitializing Automatic Updates  ###########
+2018-11-17	10:38:45:620	 812	60c	Report	CWERReporter finishing event handling. (00000000)
+2018-11-17	10:38:45:620	 812	60c	Service	*********
+2018-11-17	10:38:45:620	 812	60c	Service	**  END  **  Service: Service exit [Exit code = 0x240001]
+2018-11-17	10:38:45:620	 812	60c	Service	*************
+2018-11-17	10:42:22:285	 816	5c0	Misc	===========  Logging initialized (build: 7.5.7601.17514, tz: +0800)  ===========
+2018-11-17	10:42:22:301	 816	5c0	Misc	  = Process: C:\Windows\system32\svchost.exe
+2018-11-17	10:42:22:301	 816	5c0	Misc	  = Module: c:\windows\system32\wuaueng.dll
+2018-11-17	10:42:22:285	 816	5c0	Service	*************
+2018-11-17	10:42:22:301	 816	5c0	Service	** START **  Service: Service startup
+2018-11-17	10:42:22:316	 816	5c0	Service	*********
+2018-11-17	10:42:22:675	 816	5c0	Agent	  * WU client version 7.5.7601.17514
+2018-11-17	10:42:22:691	 816	5c0	Agent	  * Base directory: C:\Windows\SoftwareDistribution
+2018-11-17	10:42:22:691	 816	5c0	Agent	  * Access type: No proxy
+2018-11-17	10:42:22:737	 816	5c0	Agent	  * Network state: Connected
+2018-11-23	10:43:26:262	 816	5c0	Report	CWERReporter::Init succeeded
+2018-11-23	10:43:26:262	 816	5c0	Agent	***********  Agent: Initializing Windows Update Agent  ***********
+2018-11-23	10:43:26:262	 816	5c0	Agent	***********  Agent: Initializing global settings cache  ***********
+2018-11-23	10:43:26:262	 816	5c0	Agent	  * WSUS server: <NULL>
+2018-11-23	10:43:26:262	 816	5c0	Agent	  * WSUS status server: <NULL>
+2018-11-23	10:43:26:262	 816	5c0	Agent	  * Target group: (Unassigned Computers)
+2018-11-23	10:43:26:262	 816	5c0	Agent	  * Windows Update access disabled: No
+2018-11-23	10:43:26:324	 816	5c0	DnldMgr	Download manager restoring 0 downloads
+2018-11-23	10:43:26:324	 816	5c0	AU	###########  AU: Initializing Automatic Updates  ###########
+2018-11-23	10:43:26:371	 816	5c0	AU	AU setting next sqm report timeout to 2018-11-23 02:43:26
+2018-11-23	10:43:26:371	 816	5c0	AU	  # AU is not configured yet
+2018-11-23	10:43:26:371	 816	5c0	AU	  # Will interact with non-admins (Non-admins are elevated (User preference))
+2018-11-23	10:43:26:386	 816	5c0	AU	AU is not configured yet, generating timeout to launch setup wizard
+2018-11-23	10:43:26:386	 816	5c0	AU	Initializing featured updates
+2018-11-23	10:43:26:386	 816	5c0	AU	Found 0 cached featured updates
+2018-11-23	10:43:26:574	 816	5c0	Report	***********  Report: Initializing static reporting data  ***********
+2018-11-23	10:43:26:574	 816	5c0	Report	  * OS Version = 6.1.7601.1.0.197008
+2018-11-23	10:43:26:574	 816	5c0	Report	  * OS Product Type = 0x00000008
+2018-11-23	10:43:26:620	 816	5c0	Report	  * Computer Brand = VMware, Inc.
+2018-11-23	10:43:26:620	 816	5c0	Report	  * Computer Model = VMware Virtual Platform
+2018-11-23	10:43:26:620	 816	5c0	Report	  * Bios Revision = 6.00
+2018-11-23	10:43:26:620	 816	5c0	Report	  * Bios Name = PhoenixBIOS 4.0 Release 6.0     
+2018-11-23	10:43:26:620	 816	5c0	Report	  * Bios Release Date = 2017-05-19T00:00:00
+2018-11-23	10:43:26:620	 816	5c0	Report	  * Locale ID = 2052
+2018-11-23	10:43:26:667	 816	5c0	AU	Successfully wrote event for AU health state:0
+2018-11-23	10:43:26:667	 816	5c0	AU	Successfully wrote event for AU health state:0
+2018-11-23	10:43:26:667	 816	5c0	AU	AU finished delayed initialization
+2018-11-23	10:43:26:667	 816	5c0	AU	AU setting next sqm report timeout to 2018-11-24 02:43:26
+2018-11-23	10:43:31:722	 816	91c	Report	CWERReporter finishing event handling. (00000000)
+2018-11-23	14:34:33:647	 816	7c4	Report	CWERReporter finishing event handling. (00000000)
+2018-11-23	14:34:40:168	 816	7c4	Report	CWERReporter finishing event handling. (00000000)
+2018-11-23	14:59:01:391	 816	9bc	Report	CWERReporter finishing event handling. (00000000)
+2018-11-23	14:59:07:678	 816	9bc	Report	CWERReporter finishing event handling. (00000000)
+2018-11-23	18:00:23:227	 816	5c0	AU	AU initiates service shutdown
+2018-11-23	18:00:23:227	 816	5c0	AU	###########  AU: Uninitializing Automatic Updates  ###########
+2018-11-23	18:00:23:242	 816	5c0	Report	CWERReporter finishing event handling. (00000000)
+2018-11-23	18:00:23:242	 816	5c0	Service	*********
+2018-11-23	18:00:23:242	 816	5c0	Service	**  END  **  Service: Service exit [Exit code = 0x240001]
+2018-11-23	18:00:23:242	 816	5c0	Service	*************
+2018-11-23	21:30:02:660	 808	49c	Misc	===========  Logging initialized (build: 7.5.7601.17514, tz: +0800)  ===========
+2018-11-23	21:30:02:675	 808	49c	Misc	  = Process: C:\Windows\system32\svchost.exe
+2018-11-23	21:30:02:675	 808	49c	Misc	  = Module: c:\windows\system32\wuaueng.dll
+2018-11-23	21:30:02:660	 808	49c	Service	*************
+2018-11-23	21:30:02:675	 808	49c	Service	** START **  Service: Service startup
+2018-11-23	21:30:02:675	 808	49c	Service	*********
+2018-11-23	21:30:02:878	 808	49c	Agent	  * WU client version 7.5.7601.17514
+2018-11-23	21:30:02:878	 808	49c	Agent	  * Base directory: C:\Windows\SoftwareDistribution
+2018-11-23	21:30:02:894	 808	49c	Agent	  * Access type: No proxy
+2018-11-23	21:30:02:909	 808	49c	Agent	  * Network state: Connected
+2018-11-23	21:30:48:664	 808	49c	Report	CWERReporter::Init succeeded
+2018-11-23	21:30:48:664	 808	49c	Agent	***********  Agent: Initializing Windows Update Agent  ***********
+2018-11-23	21:30:48:664	 808	49c	Agent	***********  Agent: Initializing global settings cache  ***********
+2018-11-23	21:30:48:664	 808	49c	Agent	  * WSUS server: <NULL>
+2018-11-23	21:30:48:664	 808	49c	Agent	  * WSUS status server: <NULL>
+2018-11-23	21:30:48:664	 808	49c	Agent	  * Target group: (Unassigned Computers)
+2018-11-23	21:30:48:664	 808	49c	Agent	  * Windows Update access disabled: No
+2018-11-23	21:30:48:695	 808	49c	DnldMgr	Download manager restoring 0 downloads
+2018-11-23	21:30:48:695	 808	49c	AU	###########  AU: Initializing Automatic Updates  ###########
+2018-11-23	21:30:48:695	 808	49c	AU	  # AU is not configured yet
+2018-11-23	21:30:48:695	 808	49c	AU	  # Will interact with non-admins (Non-admins are elevated (User preference))
+2018-11-23	21:30:48:695	 808	49c	AU	AU is not configured yet, generating timeout to launch setup wizard
+2018-11-23	21:30:48:695	 808	49c	AU	Initializing featured updates
+2018-11-23	21:30:48:695	 808	49c	AU	Found 0 cached featured updates
+2018-11-23	21:30:48:789	 808	49c	Report	***********  Report: Initializing static reporting data  ***********
+2018-11-23	21:30:48:789	 808	49c	Report	  * OS Version = 6.1.7601.1.0.197008
+2018-11-23	21:30:48:789	 808	49c	Report	  * OS Product Type = 0x00000008
+2018-11-23	21:30:48:805	 808	49c	Report	  * Computer Brand = VMware, Inc.
+2018-11-23	21:30:48:805	 808	49c	Report	  * Computer Model = VMware Virtual Platform
+2018-11-23	21:30:48:820	 808	49c	Report	  * Bios Revision = 6.00
+2018-11-23	21:30:48:820	 808	49c	Report	  * Bios Name = PhoenixBIOS 4.0 Release 6.0     
+2018-11-23	21:30:48:820	 808	49c	Report	  * Bios Release Date = 2017-05-19T00:00:00
+2018-11-23	21:30:48:820	 808	49c	Report	  * Locale ID = 2052
+2018-11-23	21:30:48:836	 808	49c	AU	Successfully wrote event for AU health state:0
+2018-11-23	21:30:48:836	 808	49c	AU	Successfully wrote event for AU health state:0
+2018-11-23	21:30:48:836	 808	49c	AU	AU finished delayed initialization
+2018-11-23	21:30:53:875	 808	3f8	Report	CWERReporter finishing event handling. (00000000)
+2018-11-24	01:06:21:040	 808	49c	AU	AU initiates service shutdown
+2018-11-24	01:06:21:040	 808	49c	AU	###########  AU: Uninitializing Automatic Updates  ###########
+2018-11-24	01:06:21:056	 808	49c	Report	CWERReporter finishing event handling. (00000000)
+2018-11-24	01:06:21:056	 808	49c	Service	*********
+2018-11-24	01:06:21:056	 808	49c	Service	**  END  **  Service: Service exit [Exit code = 0x240001]
+2018-11-24	01:06:21:056	 808	49c	Service	*************
+2018-11-24	09:47:46:986	 824	2b0	Misc	===========  Logging initialized (build: 7.5.7601.17514, tz: +0800)  ===========
+2018-11-24	09:47:47:001	 824	2b0	Misc	  = Process: C:\Windows\system32\svchost.exe
+2018-11-24	09:47:47:001	 824	2b0	Misc	  = Module: c:\windows\system32\wuaueng.dll
+2018-11-24	09:47:46:986	 824	2b0	Service	*************
+2018-11-24	09:47:47:001	 824	2b0	Service	** START **  Service: Service startup
+2018-11-24	09:47:47:001	 824	2b0	Service	*********
+2018-11-24	09:47:47:220	 824	2b0	Agent	  * WU client version 7.5.7601.17514
+2018-11-24	09:47:47:220	 824	2b0	Agent	  * Base directory: C:\Windows\SoftwareDistribution
+2018-11-24	09:47:47:220	 824	2b0	Agent	  * Access type: No proxy
+2018-11-24	09:47:47:220	 824	2b0	Agent	  * Network state: Connected
+2018-11-24	09:48:33:068	 824	2b0	Report	CWERReporter::Init succeeded
+2018-11-24	09:48:33:068	 824	2b0	Agent	***********  Agent: Initializing Windows Update Agent  ***********
+2018-11-24	09:48:33:068	 824	2b0	Agent	***********  Agent: Initializing global settings cache  ***********
+2018-11-24	09:48:33:068	 824	2b0	Agent	  * WSUS server: <NULL>
+2018-11-24	09:48:33:068	 824	2b0	Agent	  * WSUS status server: <NULL>
+2018-11-24	09:48:33:068	 824	2b0	Agent	  * Target group: (Unassigned Computers)
+2018-11-24	09:48:33:068	 824	2b0	Agent	  * Windows Update access disabled: No
+2018-11-24	09:48:33:099	 824	2b0	DnldMgr	Download manager restoring 0 downloads
+2018-11-24	09:48:33:099	 824	2b0	AU	###########  AU: Initializing Automatic Updates  ###########
+2018-11-24	09:48:33:115	 824	2b0	AU	  # AU is not configured yet
+2018-11-24	09:48:33:115	 824	2b0	AU	  # Will interact with non-admins (Non-admins are elevated (User preference))
+2018-11-24	09:48:33:115	 824	2b0	AU	AU is not configured yet, generating timeout to launch setup wizard
+2018-11-24	09:48:33:115	 824	2b0	AU	Initializing featured updates
+2018-11-24	09:48:33:115	 824	2b0	AU	Found 0 cached featured updates
+2018-11-24	09:48:33:240	 824	2b0	Report	***********  Report: Initializing static reporting data  ***********
+2018-11-24	09:48:33:240	 824	2b0	Report	  * OS Version = 6.1.7601.1.0.197008
+2018-11-24	09:48:33:240	 824	2b0	Report	  * OS Product Type = 0x00000008
+2018-11-24	09:48:33:255	 824	2b0	Report	  * Computer Brand = VMware, Inc.
+2018-11-24	09:48:33:255	 824	2b0	Report	  * Computer Model = VMware Virtual Platform
+2018-11-24	09:48:33:255	 824	2b0	Report	  * Bios Revision = 6.00
+2018-11-24	09:48:33:255	 824	2b0	Report	  * Bios Name = PhoenixBIOS 4.0 Release 6.0     
+2018-11-24	09:48:33:255	 824	2b0	Report	  * Bios Release Date = 2017-05-19T00:00:00
+2018-11-24	09:48:33:255	 824	2b0	Report	  * Locale ID = 2052
+2018-11-24	09:48:33:255	 824	2b0	AU	Successfully wrote event for AU health state:0
+2018-11-24	09:48:33:255	 824	2b0	AU	Successfully wrote event for AU health state:0
+2018-11-24	09:48:33:255	 824	2b0	AU	AU finished delayed initialization
+2018-11-24	09:48:38:310	 824	7dc	Report	CWERReporter finishing event handling. (00000000)
+2018-11-24	10:43:26:000	 824	2b0	AU	AU setting next sqm report timeout to 2018-11-25 02:43:26
+2018-11-24	13:08:13:078	 824	b68	Report	CWERReporter finishing event handling. (00000000)
+2018-11-24	13:08:21:440	 824	b68	Report	CWERReporter finishing event handling. (00000000)

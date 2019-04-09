@@ -1,0 +1,12 @@
+f = open('t100_old.txt','r')
+lines = f.readlines()
+a = open('top100.txt','a+')
+for line in lines:
+     # cline = line.split('\n')
+     x = 0
+     while line[x] !=' ':
+          x = x + 1
+     # print line[0: x]
+     a.write(line[0: x]+'\n')
+a.close()
+f.close()

@@ -1,0 +1,600 @@
+1.系统信息(CreatedbyG) 
+
+主机名:           SCHOOL-DU1
+OS 名称:          Microsoft Windows Server 2008 R2 Datacenter 
+OS 版本:          6.1.7601 Service Pack 1 Build 7601
+OS 制造商:        Microsoft Corporation
+OS 配置:          成员服务器
+OS 构件类型:      Multiprocessor Free
+注册的所有人:     Windows 用户
+注册的组织:       
+产品 ID:          00496-001-0001283-84836
+初始安装日期:     2018/10/31, 12:52:50
+系统启动时间:     2018/11/24, 9:44:52
+系统制造商:       VMware, Inc.
+系统型号:         VMware Virtual Platform
+系统类型:         x64-based PC
+处理器:           安装了 1 个处理器。
+                  [01]: Intel64 Family 6 Model 142 Stepping 10 GenuineIntel ~1992 Mhz
+BIOS 版本:        Phoenix Technologies LTD 6.00, 2017/5/19
+Windows 目录:     C:\Windows
+系统目录:         C:\Windows\system32
+启动设备:         \Device\HarddiskVolume1
+系统区域设置:     zh-cn;中文(中国)
+输入法区域设置:   zh-cn;中文(中国)
+时区:             (UTC+08:00)北京，重庆，香港特别行政区，乌鲁木齐
+物理内存总量:     2,047 MB
+可用的物理内存:   1,565 MB
+虚拟内存: 最大值: 4,095 MB
+虚拟内存: 可用:   3,592 MB
+虚拟内存: 使用中: 503 MB
+页面文件位置:     C:\pagefile.sys
+域:               school.com
+登录服务器:       \\SCHOOL-DU1
+修补程序:         安装了 1 个修补程序。
+                  [01]: KB976902
+网卡:             安装了 1 个 NIC。
+                  [01]: Intel(R) PRO/1000 MT Network Connection
+                      连接名:      本地连接
+                      启用 DHCP:   否
+                      IP 地址
+                        [01]: 192.168.111.251
+                        [02]: fe80::3de6:ac57:c20c:2373
+2.网卡信息(CreatedbyG) 
+
+Windows IP 配置
+
+
+以太网适配器 本地连接:
+
+   连接特定的 DNS 后缀 . . . . . . . : 
+   本地链接 IPv6 地址. . . . . . . . : fe80::3de6:ac57:c20c:2373%11
+   IPv4 地址 . . . . . . . . . . . . : 192.168.111.251
+   子网掩码  . . . . . . . . . . . . : 255.255.255.0
+   默认网关. . . . . . . . . . . . . : 192.168.111.1
+
+隧道适配器 isatap.{6315CE44-8C3E-46EA-A804-99398B746551}:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开
+   连接特定的 DNS 后缀 . . . . . . . : 
+3.监听端口(CreatedbyG) 
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:3389           0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:47001          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49152          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49153          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49154          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49155          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49156          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49157          0.0.0.0:0              LISTENING
+  TCP    192.168.111.251:139    0.0.0.0:0              LISTENING
+  TCP    [::]:135               [::]:0                 LISTENING
+  TCP    [::]:445               [::]:0                 LISTENING
+  TCP    [::]:3389              [::]:0                 LISTENING
+  TCP    [::]:47001             [::]:0                 LISTENING
+  TCP    [::]:49152             [::]:0                 LISTENING
+  TCP    [::]:49153             [::]:0                 LISTENING
+  TCP    [::]:49154             [::]:0                 LISTENING
+  TCP    [::]:49155             [::]:0                 LISTENING
+  TCP    [::]:49156             [::]:0                 LISTENING
+  TCP    [::]:49157             [::]:0                 LISTENING
+4.系统服务(CreatedbyG) 
+已经启动以下 Windows 服务: 
+
+   Application Information
+   Base Filtering Engine
+   Certificate Propagation
+   COM+ Event System
+   COM+ System Application
+   Cryptographic Services
+   DCOM Server Process Launcher
+   Desktop Window Manager Session Manager
+   DHCP Client
+   Diagnostic Policy Service
+   Distributed Link Tracking Client
+   Distributed Transaction Coordinator
+   DNS Client
+   Function Discovery Provider Host
+   Group Policy Client
+   IKE and AuthIP IPsec Keying Modules
+   IP Helper
+   IPsec Policy Agent
+   Netlogon
+   Network Connections
+   Network List Service
+   Network Location Awareness
+   Network Store Interface Service
+   Plug and Play
+   Power
+   Print Spooler
+   Remote Desktop Configuration
+   Remote Desktop Services
+   Remote Desktop Services UserMode Port Redirector
+   Remote Procedure Call (RPC)
+   Remote Registry
+   RPC Endpoint Mapper
+   Security Accounts Manager
+   Server
+   Shell Hardware Detection
+   Software Protection
+   System Event Notification Service
+   Task Scheduler
+   TCP/IP NetBIOS Helper
+   User Profile Service
+   VMware Alias Manager and Ticket Service
+   VMware CAF Management Agent Service
+   VMware Tools
+   VMware 物理磁盘助手服务
+   Windows Event Log
+   Windows Firewall
+   Windows Font Cache Service
+   Windows Management Instrumentation
+   Windows Modules Installer
+   Windows Remote Management (WS-Management)
+   Windows Time
+   Windows Update
+   Workstation
+
+命令成功完成。
+
+5.系统进程(CreatedbyG) 
+
+映像名称                       PID 会话名              会话#       内存使用 
+========================= ======== ================ =========== ============
+System Idle Process              0 Services                   0         24 K
+System                           4 Services                   0        368 K
+smss.exe                       224 Services                   0      1,024 K
+csrss.exe                      312 Services                   0      5,500 K
+csrss.exe                      364 Console                    1     12,916 K
+wininit.exe                    372 Services                   0      4,700 K
+winlogon.exe                   408 Console                    1      5,456 K
+services.exe                   468 Services                   0      8,872 K
+lsass.exe                      476 Services                   0     10,588 K
+lsm.exe                        484 Services                   0      5,948 K
+svchost.exe                    576 Services                   0      9,092 K
+vmacthlp.exe                   636 Services                   0      3,932 K
+svchost.exe                    680 Services                   0      8,088 K
+svchost.exe                    748 Services                   0     11,400 K
+svchost.exe                    824 Services                   0     32,132 K
+svchost.exe                    876 Services                   0     15,808 K
+svchost.exe                    916 Services                   0     10,764 K
+svchost.exe                    960 Services                   0     14,740 K
+svchost.exe                    244 Services                   0     10,728 K
+spoolsv.exe                    864 Services                   0     15,388 K
+svchost.exe                   1076 Services                   0      2,668 K
+VGAuthService.exe             1136 Services                   0     10,240 K
+vmtoolsd.exe                  1196 Services                   0     19,264 K
+svchost.exe                   1424 Services                   0      6,936 K
+svchost.exe                   1468 Services                   0      5,368 K
+WmiPrvSE.exe                  1720 Services                   0     14,296 K
+dllhost.exe                   1768 Services                   0     11,348 K
+msdtc.exe                     1860 Services                   0      7,888 K
+svchost.exe                   1984 Services                   0      4,444 K
+ManagementAgentHost.exe        564 Services                   0     10,372 K
+taskhost.exe                   644 Console                    1      6,512 K
+dwm.exe                       1456 Console                    1      5,492 K
+sppsvc.exe                     972 Services                   0     13,412 K
+explorer.exe                  1844 Console                    1     40,816 K
+vmtoolsd.exe                  1752 Console                    1     18,140 K
+Oobe.exe                      1228 Console                    1      9,168 K
+jusched.exe                   2096 Console                    1      8,580 K
+dllhost.exe                   2376 Console                    1      4,868 K
+dllhost.exe                   2908 Services                   0      4,776 K
+cmd.exe                       1548 Console                    1      3,064 K
+conhost.exe                    536 Console                    1      4,304 K
+WmiPrvSE.exe                  2492 Services                   0      5,720 K
+TrustedInstaller.exe          1636 Services                   0      8,408 K
+tasklist.exe                  2820 Console                    1      5,544 K
+6.软件列表(CreatedbyG) 
+ ******************
+ 软件名称:ATI Technologies
+ ******************
+ ******************
+ 软件名称:CBSTEST
+ ******************
+软件信息: installpackage
+软件信息: installpackage
+ ******************
+ 软件名称:Classes
+ ******************
+ ******************
+ 软件名称:Clients
+ ******************
+软件信息: Contacts
+软件信息: Mail
+软件信息: StartMenuInternet
+ ******************
+ 软件名称:JavaSoft
+ ******************
+软件信息: Java Plug-in
+软件信息: Java Runtime Environment
+软件信息: Java Web Start
+软件信息: Java Web Start Caps
+ ******************
+ 软件名称:JreMetrics
+ ******************
+ ******************
+ 软件名称:Microsoft
+ ******************
+软件信息: .NETFramework
+软件信息: Active Setup
+软件信息: ADs
+软件信息: Advanced INF Setup
+软件信息: ALG
+软件信息: ASP.NET
+软件信息: Assistance
+软件信息: BestPractices
+软件信息: BidInterface
+软件信息: COM3
+软件信息: Command Processor
+软件信息: Cryptography
+软件信息: CTF
+软件信息: DataAccess
+软件信息: DataFactory
+软件信息: DevDiv
+软件信息: DFS
+软件信息: DirectDraw
+软件信息: DirectInput
+软件信息: DirectPlay8
+软件信息: DirectPlayNATHelp
+软件信息: DirectShow
+软件信息: DirectX
+软件信息: Driver Signing
+软件信息: DXP
+软件信息: EnterpriseCertificates
+软件信息: EventSystem
+软件信息: Feeds
+软件信息: Function Discovery
+软件信息: Fusion
+软件信息: HTMLHelp
+软件信息: IdentityCRL
+软件信息: IMAPI
+软件信息: IMEJP
+软件信息: IMEKR
+软件信息: IMETC
+软件信息: Internet Account Manager
+软件信息: Internet Domains
+软件信息: Internet Explorer
+软件信息: MMC
+软件信息: Mobile
+软件信息: MSDE
+软件信息: MSDTC
+软件信息: MSF
+软件信息: MSLicensing
+软件信息: MSMQ
+软件信息: MSSQLServer
+软件信息: NapServer
+软件信息: NET Framework Setup
+软件信息: NetSh
+软件信息: Network
+软件信息: NetworkAccessProtection
+软件信息: Non-Driver Signing
+软件信息: Notepad
+软件信息: ODBC
+软件信息: Ole
+软件信息: Outlook Express
+软件信息: PLA
+软件信息: PowerShell
+软件信息: Print
+软件信息: RADAR
+软件信息: Ras
+软件信息: Reliability Analysis
+软件信息: RFC1156Agent
+软件信息: Router
+软件信息: Rpc
+软件信息: SchedulingAgent
+软件信息: ServerManager
+软件信息: Shared Tools
+软件信息: Shared Tools Location
+软件信息: SideShow
+软件信息: Software
+软件信息: Speech
+软件信息: SQMClient
+软件信息: Sync Framework
+软件信息: Sysprep
+软件信息: SystemCertificates
+软件信息: TableTextService
+软件信息: Tcpip
+软件信息: Terminal Server Client
+软件信息: TermServLicensing
+软件信息: TIP Shared
+软件信息: Tpm
+软件信息: Tracing
+软件信息: Transaction Server
+软件信息: uDRM
+软件信息: UPnP Device Host
+软件信息: Virtual Machine
+软件信息: WAB
+软件信息: WBEM
+软件信息: WIMMount
+软件信息: Windows
+软件信息: Windows Mail
+软件信息: Windows NT
+软件信息: Windows Script Host
+软件信息: Windows Search
+软件信息: Workspaces
+ ******************
+ 软件名称:MozillaPlugins
+ ******************
+软件信息: @java.com/DTPlugin,version=11.191.2
+软件信息: @java.com/JavaPlugin,version=11.191.2
+ ******************
+ 软件名称:ODBC
+ ******************
+软件信息: ODBC.INI
+软件信息: ODBCINST.INI
+ ******************
+ 软件名称:Oracle
+ ******************
+软件信息: JavaDeploy
+ ******************
+ 软件名称:Policies
+ ******************
+软件信息: Microsoft
+ ******************
+ 软件名称:RegisteredApplications
+ ******************
+软件信息: Address Book
+软件信息: CurrentVersion
+软件信息: Capabilities
+软件信息: CurrentVersion
+软件信息: Capabilities
+软件信息: Capabilities
+ ******************
+ 软件名称:ThinPrint
+ ******************
+软件信息: TPAutoConnect
+软件信息: TPVCGateway
+软件信息: TPVMMon
+ ******************
+ 软件名称:VMware, Inc.
+ ******************
+ ******************
+ 软件名称:Wow6432Node
+ ******************
+软件信息: JavaSoft
+软件信息: Microsoft
+软件信息: ODBC
+软件信息: Classes
+软件信息: Clients
+软件信息: Policies
+软件信息: RegisteredApplications
+7.本地策略(CreatedbyG) 
+---密码策略--- 
+"0表示禁用，1表示启用" 
+*密码必须符合复杂性要求* 
+PasswordComplexity = 1
+*密码长度最小值* 
+MinimumPasswordLength = 7
+*密码最短使用期限* 
+MinimumPasswordAge = 1
+*密码最长使用期限* 
+MaximumPasswordAge = 42
+*强制密码历史* 
+PasswordHistorySize = 24
+*用可还原的加密来存储密码* 
+ClearTextPassword = 0
+---账户锁定策略（无结果表示未开启）--- 
+*账户锁定时间* 
+*复位账户锁定计时器* 
+*账户锁定阈值* 
+LockoutBadCount = 0
+---审核策略--- 
+---0表示无审核，1表示成功审核，2表示失败审核，3表示成功和失败审核--- 
+*审核帐户管理* 
+AuditAccountManage = 0
+*审核帐户登录事件* 
+AuditAccountLogon = 0
+*审核系统事件* 
+AuditSystemEvents = 0
+*审核目录服务访问* 
+AuditDSAccess = 0
+*审核过程跟踪* 
+AuditProcessTracking = 0
+*审核特权使用* 
+AuditPrivilegeUse = 0
+*审核对象访问* 
+AuditObjectAccess = 0
+*审核登录事件* 
+AuditLogonEvents = 0
+*审核策略更改* 
+AuditPolicyChange = 0
+---安全选项--- 
+*0表示已停用，1表示已启用* 
+*在挂起会话之前所需的空闲时间* 
+MACHINE\System\CurrentControlSet\Services\LanManServer\Parameters\AutoDisconnect=4,15
+*不显示上次登录的用户名* 
+MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\DontDisplayLastUserName=4,0
+*关机前清理虚拟内存页面* 
+MACHINE\System\CurrentControlSet\Control\Session Manager\Memory Management\ClearPageFileAtShutdown=4,0
+*允许在未登录前关机* 
+MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\ShutdownWithoutLogon=4,0
+---用户权利分配---  
+(Everyone:*S-1-1-0  Administrators:*S-1-5-32-544  Users:*S-1-5-32-545  Power Users:*S-1-5-32-547  Backup Operators:*S-1-5-32-551) 
+*从远程系统强制关机* 
+SeRemoteShutdownPrivilege = *S-1-5-32-544
+*取得文件或其他对象所有权* 
+SeTakeOwnershipPrivilege = *S-1-5-32-544
+*从本地登录此计算机* 
+SeInteractiveLogonRight = *S-1-5-32-544,*S-1-5-32-545,*S-1-5-32-551
+*允许通过远程桌面服务登录* 
+SeRemoteInteractiveLogonRight = *S-1-5-32-544,*S-1-5-32-555
+*调试程序* 
+SeDebugPrivilege = *S-1-5-32-544
+*更改系统时间* 
+SeSystemtimePrivilege = *S-1-5-19,*S-1-5-32-544
+*管理审核和安全日志* 
+SeSecurityPrivilege = *S-1-5-32-544
+8.系统用户(CreatedbyG) 
+
+\\SCHOOL-DU1 的用户帐户
+
+-------------------------------------------------------------------------------
+Administrator            Guest                    School-DU1               
+命令成功完成。
+
+用户名                 Administrator
+全名                   
+注释                   管理计算机(域)的内置帐户
+用户的注释             
+国家/地区代码          000 (系统默认值)
+帐户启用               Yes
+帐户到期               从不
+
+上次设置密码           2018/11/24 14:40:22
+密码到期               2019/1/5 14:40:22
+密码可更改             2018/11/25 14:40:22
+需要密码               Yes
+用户可以更改密码       Yes
+
+允许的工作站           All
+登录脚本               
+用户配置文件           
+主目录                 
+上次登录               2010/11/21 11:48:04
+
+可允许的登录小时数     All
+
+本地组成员             *Administrators       
+全局组成员             *None                 
+命令成功完成。
+
+用户名                 Guest
+全名                   
+注释                   供来宾访问计算机或访问域的内置帐户
+用户的注释             
+国家/地区代码          000 (系统默认值)
+帐户启用               No
+帐户到期               从不
+
+上次设置密码           2018/11/24 14:40:22
+密码到期               从不
+密码可更改             2018/11/25 14:40:22
+需要密码               No
+用户可以更改密码       No
+
+允许的工作站           All
+登录脚本               
+用户配置文件           
+主目录                 
+上次登录               从不
+
+可允许的登录小时数     All
+
+本地组成员             *Guests               
+全局组成员             *None                 
+命令成功完成。
+
+用户名                 School-DU1
+全名                   
+注释                   
+用户的注释             
+国家/地区代码          086 (中国)
+帐户启用               Yes
+帐户到期               从不
+
+上次设置密码           2018/10/31 12:52:27
+密码到期               2018/12/12 12:52:27
+密码可更改             2018/11/1 12:52:27
+需要密码               Yes
+用户可以更改密码       Yes
+
+允许的工作站           All
+登录脚本               
+用户配置文件           
+主目录                 
+上次登录               2018/11/24 10:05:31
+
+可允许的登录小时数     All
+
+本地组成员             *Administrators       *Users                
+全局组成员             *None                 
+命令成功完成。
+
+
+\\SCHOOL-DU1 的别名
+
+-------------------------------------------------------------------------------
+*Administrators
+*Backup Operators
+*Certificate Service DCOM Access
+*Cryptographic Operators
+*Distributed COM Users
+*Event Log Readers
+*Guests
+*IIS_IUSRS
+*Network Configuration Operators
+*Performance Log Users
+*Performance Monitor Users
+*Power Users
+*Print Operators
+*Remote Desktop Users
+*Replicator
+*Users
+命令成功完成。
+
+别名     Administrators
+注释     管理员对计算机/域有不受限制的完全访问权
+
+成员
+
+-------------------------------------------------------------------------------
+Administrator
+School-DU1
+命令成功完成。
+
+别名     Guests
+注释     按默认值，来宾跟用户组的成员有同等访问权，但来宾帐户的限制更多
+
+成员
+
+-------------------------------------------------------------------------------
+Guest
+命令成功完成。
+
+9.其它选项(CreatedbyG) 	
+*自动播放* （oxff为关闭全部自动播放，无结果则开启） 
+---屏幕保护程序--- 
+*是否开启屏保* （0关，1开）
+    ScreenSaveActive    REG_SZ    1
+*屏保时间*（单位秒）
+*屏保恢复时使用密码保护* （0否，1是）
+*防火墙状态*（1开，0关）
+    EnableFirewall    REG_DWORD    0x0
+*远程桌面* (0开，1关) 
+    fDenyTSConnections    REG_DWORD    0x0
+*3389端口* (d3d:3389) 
+    PortNumber    REG_DWORD    0xd3d
+*远程协助* (0关（合规），1开) 
+*日志文件大小*  
+*应用日志文件大小*（0x2800000以上为合规）  
+    MaxSize    REG_DWORD    0x1400000
+*达到事件日志最大大小时*（不存在或0均合规）  
+    Retention    REG_DWORD    0x0
+*安全日志文件大小*（0x2800000以上为合规）  
+    MaxSize    REG_DWORD    0x1400000
+*达到事件日志最大大小时*（不存在或0均合规）  
+    Retention    REG_DWORD    0x0
+*系统日志文件大小*（0x2800000以上为合规）  
+    MaxSize    REG_DWORD    0x1400000
+*达到事件日志最大大小时*（不存在或0均合规）  
+    Retention    REG_DWORD    0x0
+*默认共享*（注册表 + net share查看）  
+*分区共享*（存在且为0，为合规）  
+*ADMIN共享*（存在且为0，为合规） 
+*IPC共享* （存在且为1，为合规） 
+    restrictanonymous    REG_DWORD    0x0
+*共享列表*  
+
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\lanmanserver\shares\Security
+*默认共享*  
+
+共享名       资源                            注解
+
+-------------------------------------------------------------------------------
+C$           C:\                             默认共享                          
+IPC$                                         远程 IPC                          
+ADMIN$       C:\Windows                      远程管理                          
+命令成功完成。
+

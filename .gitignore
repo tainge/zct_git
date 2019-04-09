@@ -112,3 +112,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+*.py
+tools/pass/run/pass_1.txt
+tools/pass/test/top100.txt
+tools/pass/run/rule.ini
